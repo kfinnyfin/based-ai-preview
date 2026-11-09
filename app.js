@@ -2,7 +2,7 @@
 const catalog=window.BASED_CATALOG||[];
 const engine=window.BasedEngine;
 const stateKey='based-ai-private-demo-state-v2', legacyKey='based-ai-demo-routine-v1';
-let state=engine.initialState(), routine=[], filter='hair', routineDay='All';
+let state=engine.initialState(), routine=[], filter='hair', routineDay='All', washDraft=null;
 const messages=document.querySelector('#messages'),list=document.querySelector('#routine-list'),summary=document.querySelector('#profile-summary'),grid=document.querySelector('#products');
 let conversationHistory=[], conversationEpoch=0;
 let legacy=[];
@@ -59,15 +59,30 @@ function renderWelcome(){
 }
 function profile(){summary.replaceChildren();const values=[];if(state.category)values.push(state.category);if(state.hairType)values.push(state.hairType+' hair');if(state.hairLength)values.push(state.hairLength+' hair');if(state.hairThickness)values.push(state.hairThickness+' hair');if(state.goal)values.push(state.goal);if(state.washDays&&state.washDays.length)values.push('Wash: '+state.washDays.join(', '));if(state.ownershipKnown)values.push((state.ownedIds||[]).length+' products owned');if(!values.length)summary.append(node('span','Tell us your goals and what you own to get started.','profile-empty'));else values.forEach(x=>summary.append(node('span',String(x),'profile-chip')))}
 const routineDays=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+function completionKey(entry){const d=new Date();d.setHours(12,0,0,0);d.setDate(d.getDate()-((d.getDay()+6)%7));return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0'),entry.id].join('-');}
 function renderRoutine(){
  list.replaceChildren();const total=routine.length+legacy.length;document.querySelector('.chat-panel').classList.toggle('has-routine',total>0);document.querySelector('#routine-count').textContent=state.safetyHold?'Paused':total?total+' '+(total===1?'step':'steps'):'Not built yet';
  if(state.safetyHold){list.append(node('p','Routine hidden while a possible reaction is being discussed. Please consult a healthcare professional.','routine-warning'));return;}
- const entries=[...routine,...legacy];if(!entries.length){list.append(node('p','Your routine will appear here.','muted'));return;}
+ const entries=[...routine,...legacy];if(!entries.length){list.append(node('p','No routine yet. Choose the products you own, then build your routine.','muted'));return;}
+ if(!state.completedSteps||typeof state.completedSteps!=='object'||Array.isArray(state.completedSteps))state.completedSteps={};
+ const heading=node('div',undefined,'routine-overview');heading.append(node('span','YOUR PLAN','routine-kicker'),node('h3','Make it a routine.'),node('p','Choose a day and check off steps. Progress resets each week.'));
+ const dayOptions=node('div',undefined,'routine-view-toggle');dayOptions.setAttribute('role','group');dayOptions.setAttribute('aria-label','Routine view');
+ [['Today',routineDays[(new Date().getDay()+6)%7]],['Whole week','All']].forEach(([label,day])=>{const b=node('button',label);b.type='button';b.setAttribute('aria-pressed',String(routineDay===day));b.addEventListener('click',()=>{routineDay=day;renderRoutine()});dayOptions.append(b)});heading.append(dayOptions);list.append(heading);
+ const hairScheduled=entries.some(e=>['shampoo','conditioner'].includes(e.productId));
+ if(hairScheduled){
+  const picker=node('details',undefined,'wash-picker'),sum=node('summary','Change wash days');picker.append(sum);
+  picker.append(node('p','Choose days, then rebuild your hair routine. Rebuilding replaces generated hair steps; manual entries stay.'));
+  const selected=new Set(washDraft||state.washDays||[]),buttons=node('div',undefined,'wash-buttons');
+  routineDays.forEach(day=>{const b=node('button',day.slice(0,3));b.type='button';b.setAttribute('aria-label',day);b.setAttribute('aria-pressed',String(selected.has(day)));b.addEventListener('click',()=>{if(selected.has(day))selected.delete(day);else selected.add(day);washDraft=routineDays.filter(d=>selected.has(d));b.setAttribute('aria-pressed',String(selected.has(day)));apply.disabled=!selected.size});buttons.append(b)});picker.append(buttons);
+  const apply=node('button','Save days & rebuild','wash-apply');apply.type='button';apply.disabled=!selected.size;apply.addEventListener('click',()=>{state.washDays=routineDays.filter(d=>selected.has(d));state.washFrequency=state.washDays.length;state.washDaysProvisional=false;state.category='hair';state.categoryExplicit=true;washDraft=null;makeRoutine()});picker.append(apply);list.append(picker);
+ }
+
  const dayOf=entry=>entry.day||'As needed';const unknown=[...new Set(entries.map(dayOf).filter(day=>!routineDays.includes(day)&&day!=='As needed'))];
  const filters=node('div',undefined,'routine-filters');filters.setAttribute('role','group');filters.setAttribute('aria-label','View routine by day');
  const options=['All',...routineDays,...(entries.some(e=>dayOf(e)==='As needed')?['As needed']:[]),...unknown];if(!options.includes(routineDay))routineDay='All';
  options.forEach(day=>{const count=day==='All'?entries.length:entries.filter(e=>dayOf(e)===day).length;const b=node('button',undefined,'routine-day');b.type='button';b.setAttribute('aria-pressed',String(routineDay===day));b.setAttribute('aria-label',day+': '+count+' '+(count===1?'step':'steps'));b.append(node('span',routineDays.includes(day)?day.slice(0,3):day),node('small',String(count)));b.addEventListener('click',()=>{routineDay=day;renderRoutine();const buttons=list.querySelectorAll('.routine-day');const match=[...buttons].find(x=>x.getAttribute('aria-label')?.startsWith(day+':'));if(match)match.focus()});filters.append(b)});list.append(filters);
  const visible=routineDay==='All'?entries:entries.filter(e=>dayOf(e)===routineDay);
+ if(visible.length){const count=visible.filter(e=>state.completedSteps[completionKey(e)]).length;const progress=node('div',undefined,'routine-progress');progress.append(node('span',count+' of '+visible.length+' complete'),node('span',routineDay==='All'?'Whole week':routineDay));list.append(progress);}
  if(!visible.length){list.append(node('p','No steps scheduled for '+routineDay+'.','routine-empty'));return;}
  const groups=[];for(const entry of visible){const day=dayOf(entry);let group=groups.find(g=>g.day===day);if(!group){group={day,entries:[]};groups.push(group)}group.entries.push(entry)}
  groups.forEach(group=>{const section=node('section',undefined,'routine-day-group'),head=node('div',undefined,'routine-day-header');head.append(node('h4',group.day),node('span',group.entries.length+' '+(group.entries.length===1?'step':'steps')));section.append(head);
@@ -76,7 +91,8 @@ function renderRoutine(){
   number.setAttribute('aria-label','Step '+(i+1));header.append(node('small',entry.legacy?'Saved earlier':'STEP '+(i+1),'step-day'));
   const actions=node('div',undefined,'routine-actions'),edit=node('button','Edit');edit.type='button';edit.setAttribute('aria-label','Edit routine step');edit.addEventListener('click',()=>{const value=prompt('Edit routine step:',entry.instruction||'');if(value===null||!value.trim())return;entry.instruction=value.trim().slice(0,400);if(entry.legacy){const oldIndex=legacy.indexOf(entry);legacy.splice(oldIndex,1);entry.legacy=false;routine.push(entry);saveLegacy()}save();renderRoutine()});
   const remove=node('button','Remove');remove.type='button';remove.setAttribute('aria-label','Remove routine step');remove.addEventListener('click',()=>{if(entry.legacy){legacy=legacy.filter(x=>x!==entry);saveLegacy()}else routine=routine.filter(x=>x!==entry);save();renderRoutine()});actions.append(edit,remove);header.append(actions);content.append(header);
-  const body=node('div',undefined,'step-body');if(product?.image){const img=node('img');img.src=product.image;img.alt='';img.loading='lazy';body.append(img)}const copy=node('div',undefined,'step-copy');if(product)copy.append(node('strong',product.name));if(entry.condition)copy.append(node('small',entry.condition,'step-condition'));copy.append(node('p',entry.instruction||'Directions need review.'));body.append(copy);content.append(body);
+  const check=node('button',state.completedSteps[completionKey(entry)]?'✓':'○','step-complete');check.type='button';check.setAttribute('aria-label',(state.completedSteps[completionKey(entry)]?'Mark incomplete: ':'Mark complete: ')+(product?.name||entry.instruction||'routine step')+' on '+group.day);check.setAttribute('aria-pressed',String(!!state.completedSteps[completionKey(entry)]));check.addEventListener('click',()=>{state.completedSteps[completionKey(entry)]=!state.completedSteps[completionKey(entry)];save();renderRoutine()});header.append(check);row.classList.toggle('is-complete',!!state.completedSteps[completionKey(entry)]);
+  const body=node('div',undefined,'step-body');if(product?.image){const img=node('img');img.src=product.image;img.alt='';img.loading='lazy';body.append(img)}const copy=node('div',undefined,'step-copy');if(product)copy.append(node('strong',product.name));if(entry.condition&&entry.condition!=='Not specified in reviewed source')copy.append(node('small',entry.condition,'step-condition'));copy.append(node('p',entry.instruction||'Directions need review.'));body.append(copy);content.append(body);
   if(entry.source){const a=node('a','Product details ↗','step-source');a.href=entry.source;a.target='_blank';a.rel='noopener noreferrer';content.append(a)}row.append(number,content);section.append(row);
  });list.append(section)});
 }
