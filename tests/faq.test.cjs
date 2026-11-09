@@ -29,3 +29,7 @@ assert.match(ask(BasedEngine.initialState(),'How much curl gel should I use?').r
 assert.match(ask(BasedEngine.initialState(),'Does skin elixir have a scent?').reply,/no added fragrance/i);
 const short={...BasedEngine.initialState(),hairType:'curly',hairLength:'0–2 inches',ownershipKnown:true,ownedIds:['curl-gel']};
 assert.equal(BasedEngine.generateRoutine(short,BASED_CATALOG).some(step=>step.productId==='curl-gel'),false);
+const shortHold=ask({...BasedEngine.initialState(),hairType:'coily',hairLength:'0–2 inches'},'I have coily hair and want strong hold. Please suggest products.');
+assert.match(shortHold.reply,/Curl Gel.*4 inches.*Curl Mousse/i);
+assert.doesNotMatch(shortHold.reply,/Tell me your hair type/i);
+let pairing=ask(BasedEngine.initialState(),'How do I apply curl mousse?');pairing=ask(pairing.state,'Can I use it with curl gel?');assert.match(pairing.reply,/Curl Mousse[\s\S]*roots[\s\S]*Curl Gel/i);
