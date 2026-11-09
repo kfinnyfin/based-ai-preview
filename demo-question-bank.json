@@ -1,0 +1,1152 @@
+[
+  {
+    "question": "What does Texture Powder do?",
+    "answer": "Texture Powder: Adds volume and texture, especially at the roots.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "purpose",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "How do I apply Texture Powder?",
+    "answer": "Texture Powder: Spray 2–4 times, scrunch into roots, then style. Adjust the amount for your hair. Straight to wavy hair; particularly fine or short hair. For a post-workout touchup, wait until hair is dry.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "application",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "How often should I use Texture Powder?",
+    "answer": "Texture Powder: As desired\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "frequency",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "What hair types is Texture Powder for?",
+    "answer": "Texture Powder: Best suited to straight or wavy hair, especially fine or short hair around 0–4 inches.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "suitability",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "Should I apply Texture Powder on wet or dry hair?",
+    "answer": "Texture Powder: I don’t have verified directions for whether to apply it to wet, damp, or dry hair. Spray 2–4 times, scrunch into roots, then style. Adjust the amount for your hair. Check the product label or page.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "hair state",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "Can I use Texture Powder with other products?",
+    "answer": "Texture Powder: May be combined with Hair Clay.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "pairing",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "What ingredients are in Texture Powder?",
+    "answer": "Texture Powder: The reviewed page lists these ingredients: Silica Silylate, Silica, Arrowroot Powder, Mica, Rice Powder. Check your product label for its current formula and variant.\nSource: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "ingredients",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "What does Texture Powder smell like?",
+    "answer": "Texture Powder: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "scent",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "What does Sea Salt Spray do?",
+    "answer": "Sea Salt Spray: Creates a beachy, textured look with natural-looking volume.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "purpose",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "How do I apply Sea Salt Spray?",
+    "answer": "Sea Salt Spray: Spray through hair and scrunch, air-dry or blow-dry. Damp or dry hair\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "application",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "How often should I use Sea Salt Spray?",
+    "answer": "Sea Salt Spray: Daily use is an option, according to our product page.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "frequency",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "What hair types is Sea Salt Spray for?",
+    "answer": "Sea Salt Spray: For straight or wavy hair and a textured, beachy look.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "suitability",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "Should I apply Sea Salt Spray on wet or dry hair?",
+    "answer": "Sea Salt Spray: Damp or dry hair\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "hair state",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "Can I use Sea Salt Spray with other products?",
+    "answer": "Sea Salt Spray: Use on its own or before our Hair Clay or Pomade for extra styling.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "pairing",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "What ingredients are in Sea Salt Spray?",
+    "answer": "Sea Salt Spray: The reviewed page lists these ingredients: Water, Sea Salt, Caprylyl/Capryl Glucoside, Santal Sandalwood, Aloe Vera, Glycerin, Kelp Extract, Potassium Sorbate + Sodium Benzoate, Vitamin B5, Citric Acid. Check your product label for its current formula and variant.\nSource: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "ingredients",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "What does Sea Salt Spray smell like?",
+    "answer": "Sea Salt Spray: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "scent",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "What does Hair Clay do?",
+    "answer": "Hair Clay: Adds matte texture and strong hold.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "purpose",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "How do I apply Hair Clay?",
+    "answer": "Hair Clay: For our maximum-volume look, warm a small amount between your palms, work it through your hair and lift from the roots. Our application tutorial suggests starting with a pea-sized amount and adding more if needed. Dry hair for our maximum-volume guide; use on wet or damp hair has not been verified.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "application",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "How often should I use Hair Clay?",
+    "answer": "Hair Clay: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "frequency",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "What hair types is Hair Clay for?",
+    "answer": "Hair Clay: Best for short-to-medium thick, straight or wavy hair; not ideal for long or very curly hair.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "suitability",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "Should I apply Hair Clay on wet or dry hair?",
+    "answer": "Hair Clay: Dry hair for our maximum-volume guide; use on wet or damp hair has not been verified.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "hair state",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "Can I use Hair Clay with other products?",
+    "answer": "Hair Clay: May be paired with Texture Powder.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "pairing",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "What ingredients are in Hair Clay?",
+    "answer": "Hair Clay: The reviewed page lists these ingredients: Shea Butter, Beeswax, Kaolin Clay, Arrowroot Powder, Santal Sandalwood, Bentonite (Clay), Vitamin E. Check your product label for its current formula and variant.\nSource: https://based.com/products/hair-clay",
+    "product": "Hair Clay",
+    "intent": "ingredients",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "What does Hair Clay smell like?",
+    "answer": "Hair Clay: Our Hair Clay has a light Santal scent.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "scent",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "What does Pomade do?",
+    "answer": "Pomade: Creates slick, shiny styles such as slick backs, flows and side parts.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "purpose",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "How do I apply Pomade?",
+    "answer": "Pomade: For a textured wavy look, warm a dime-size amount in your palms and scrunch through the tips, away from roots. Short to medium hair\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "application",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "How often should I use Pomade?",
+    "answer": "Pomade: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "frequency",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "What hair types is Pomade for?",
+    "answer": "Pomade: I don’t have verified hair-type guidance for this product. Check the product page.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "suitability",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "Should I apply Pomade on wet or dry hair?",
+    "answer": "Pomade: I don’t have verified directions for whether to apply it to wet, damp, or dry hair. For a textured wavy look, warm a dime-size amount in your palms and scrunch through the tips, away from roots. Check the product label or page.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "hair state",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "Can I use Pomade with other products?",
+    "answer": "Pomade: For a textured look, our Sea Salt Spray can be used before Pomade.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "pairing",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "What ingredients are in Pomade?",
+    "answer": "Pomade: The reviewed page lists these ingredients: Caprylic/Capric Triglyceride, Castor Oil, Bentonite (Clay), Beeswax, Shea Butter, Santal Sandalwood, Jojoba Oil, Vitamin E, Argan Oil. Check your product label for its current formula and variant.\nSource: https://based.com/products/pomade",
+    "product": "Pomade",
+    "intent": "ingredients",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "What does Pomade smell like?",
+    "answer": "Pomade: Our Pomade has a Santal Sandalwood scent.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "scent",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "What does Curl Mousse do?",
+    "answer": "Curl Mousse: Adds volume and definition with flexible hold to wavy, curly or coily hair.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "purpose",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "How do I apply Curl Mousse?",
+    "answer": "Curl Mousse: Apply 2–3 or more pumps as needed for length to damp hair; rub between hands, scrunch through mid-lengths and ends, then air-dry or diffuse. For volume, apply at the roots. Damp hair\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "application",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "How often should I use Curl Mousse?",
+    "answer": "Curl Mousse: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "frequency",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "What hair types is Curl Mousse for?",
+    "answer": "Curl Mousse: For wavy, curly and coily hair (2A–4C); especially useful for fine or low-density hair seeking volume.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "suitability",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "Should I apply Curl Mousse on wet or dry hair?",
+    "answer": "Curl Mousse: Damp hair. Apply 2–3 or more pumps as needed for length to damp hair; rub between hands, scrunch through mid-lengths and ends, then air-dry or diffuse. For volume, apply at the roots.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "hair state",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "Can I use Curl Mousse with other products?",
+    "answer": "Curl Mousse: Apply after our Leave-In Conditioner or Curl Cream. For lift and hold, use Mousse at the roots and Curl Gel on the lengths.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "pairing",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "What ingredients are in Curl Mousse?",
+    "answer": "Curl Mousse: The reviewed page lists these ingredients: Water, Glycolipids, Inulin, Aureobasidium Pullulans Ferment, Santal Sandalwood, Glycerin, Althaea Officinalis (Marshmallow) Root Extract, Sodium Benzoate + Potassium Sorbate, Bambusa Vulgaris Extract, Sodium Gluconate, Hydrolyzed Rice Protein, Citric Acid. Check your product label for its current formula and variant.\nSource: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "ingredients",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "What does Curl Mousse smell like?",
+    "answer": "Curl Mousse: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "scent",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "What does Curl Gel do?",
+    "answer": "Curl Gel: Adds strong hold and definition to curly and coily hair.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "purpose",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "How do I apply Curl Gel?",
+    "answer": "Curl Gel: Apply to freshly wet hair in sections, rake through and scrunch; dry completely, then scrunch out the cast. Wet or damp curly and coily hair\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "application",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "How often should I use Curl Gel?",
+    "answer": "Curl Gel: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "frequency",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "What hair types is Curl Gel for?",
+    "answer": "Curl Gel: For curly and coily hair (3A–4C), around 4 inches or longer.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "suitability",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "Should I apply Curl Gel on wet or dry hair?",
+    "answer": "Curl Gel: Apply to freshly wet hair in sections, rake through and scrunch; dry completely, then scrunch out the cast.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "hair state",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "Can I use Curl Gel with other products?",
+    "answer": "Curl Gel: Our product page suggests layering after Leave-In Conditioner or Curl Cream. Curl Mousse can add lift at the roots.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "pairing",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "What ingredients are in Curl Gel?",
+    "answer": "Curl Gel: The reviewed page lists these ingredients: Water, Caprylyl/Capryl Glucoside, Santal Sandalwood, Glycerin, Inulin, Cellulose Gum, Sclerotium Gum, Citric Acid, Potassium Sorbate + Sodium Benzoate, Panthenol (Vitamin B5), Linum Usitatissimum (Flaxseed) Seed Extract, Chondrus Crispus Extract, Tocopherol, Sodium Gluconate, Beta Vulgaris (Beet) Root Extract. Check your product label for its current formula and variant.\nSource: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "ingredients",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "What does Curl Gel smell like?",
+    "answer": "Curl Gel: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "scent",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "What does Curl Refresh Spray do?",
+    "answer": "Curl Refresh Spray: Refreshes curl definition between wash days.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "purpose",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "How do I apply Curl Refresh Spray?",
+    "answer": "Curl Refresh Spray: Spray onto slightly damp curls and scrunch; air-dry or diffuse. Slightly damp curls\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "application",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "How often should I use Curl Refresh Spray?",
+    "answer": "Curl Refresh Spray: Use on slightly damp day-two or day-three curls, or whenever you need a refresh.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "frequency",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "What hair types is Curl Refresh Spray for?",
+    "answer": "Curl Refresh Spray: For wavy, curly and coily hair (2A–4C) at least 2 inches long.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "suitability",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "Should I apply Curl Refresh Spray on wet or dry hair?",
+    "answer": "Curl Refresh Spray: Slightly damp curls. Spray onto slightly damp curls and scrunch; air-dry or diffuse.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "hair state",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "Can I use Curl Refresh Spray with other products?",
+    "answer": "Curl Refresh Spray: Use between washes to refresh a style made with our Leave-In Conditioner, Curl Cream, Curl Mousse or Curl Gel.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "pairing",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "What ingredients are in Curl Refresh Spray?",
+    "answer": "Curl Refresh Spray: The reviewed page lists these ingredients: Water, Glycerin, Bambusa Vulgaris Extract, Hibiscus Sabdariffa Flower Extract, Caprylyl/Capryl Glucoside, Panthenol (Vitamin B5), Santal Sandalwood, Potassium Sorbate + Sodium Benzoate, Sclerotium Gum, Saccharide Isomerate, Citric Acid, Sodium Citrate. Check your product label for its current formula and variant.\nSource: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "ingredients",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "What does Curl Refresh Spray smell like?",
+    "answer": "Curl Refresh Spray: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "scent",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "What does Curl Cream do?",
+    "answer": "Curl Cream: Adds definition, moisture and control to curls and coils.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "purpose",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "How do I apply Curl Cream?",
+    "answer": "Curl Cream: In our waves-to-defined-curls guide, rub a quarter-size amount between your palms and scrunch it through the tips. Wet hair in our waves-to-defined-curls guide; general application conditions have not been verified.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "application",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "How often should I use Curl Cream?",
+    "answer": "Curl Cream: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "frequency",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "What hair types is Curl Cream for?",
+    "answer": "Curl Cream: Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "suitability",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "Should I apply Curl Cream on wet or dry hair?",
+    "answer": "Curl Cream: Wet hair in our waves-to-defined-curls guide; general application conditions have not been verified.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "hair state",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "Can I use Curl Cream with other products?",
+    "answer": "Curl Cream: Our Curl Cream can be paired with our Leave-In Conditioner.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "pairing",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "What ingredients are in Curl Cream?",
+    "answer": "Curl Cream: The reviewed page lists these ingredients: Water, Glycerin, Castor Oil, Avocado Oil, Cetearyl Olivate, Sorbitan Olivate, Inulin, Aureobasidium Pullulans Ferment, Arginine, Vitamin B5, Hydrolyzed Silk, Vitamin E, Sodium Gluconate, Cetearyl Alcohol, Guar Hydroxypropyltrimonium Chloride, Hydroxyethylcellulose, Citric Acid, Sodium Benzoate, Potassium Sorbate, Naturally Derived Fragrance. Check your product label for its current formula and variant.\nSource: https://based.com/products/curl-cream",
+    "product": "Curl Cream",
+    "intent": "ingredients",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "What does Curl Cream smell like?",
+    "answer": "Curl Cream: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "scent",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "What does Leave-In Conditioner do?",
+    "answer": "Leave-In Conditioner: Adds moisture and helps control frizz, particularly for wavy, curly and coily hair.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "purpose",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "How do I apply Leave-In Conditioner?",
+    "answer": "Leave-In Conditioner: Apply to damp hair through the mid-lengths and ends. Our fall routine guide suggests 2–4 pumps depending on your hair’s needs. Damp hair\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "application",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "How often should I use Leave-In Conditioner?",
+    "answer": "Leave-In Conditioner: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "frequency",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "What hair types is Leave-In Conditioner for?",
+    "answer": "Leave-In Conditioner: Especially suited to wavy, curly or coily hair that needs moisture or frizz control.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "suitability",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "Should I apply Leave-In Conditioner on wet or dry hair?",
+    "answer": "Leave-In Conditioner: Damp hair. Apply to damp hair through the mid-lengths and ends. Our fall routine guide suggests 2–4 pumps depending on your hair’s needs.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "hair state",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "Can I use Leave-In Conditioner with other products?",
+    "answer": "Leave-In Conditioner: Pair with our Curl Cream for definition; our Curl Mousse can be applied after it for volume.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "pairing",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "What ingredients are in Leave-In Conditioner?",
+    "answer": "Leave-In Conditioner: The reviewed page lists these ingredients: Water, Glycerin, Castor Oil, Avocado Oil, Sorbitan Olivate, Cetearyl Olivate, Cetearyl Alcohol, Santal Sandalwood, Vitamin E, Arginine, Sodium Gluconate, Citric Acid, Guar Hydroxypropyltrimonium Chloride, Hydroxyethylcellulose, Sodium Benzoate, Potassium Sorbate. Check your product label for its current formula and variant.\nSource: https://based.com/products/leave-in-conditioner",
+    "product": "Leave-In Conditioner",
+    "intent": "ingredients",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "What does Leave-In Conditioner smell like?",
+    "answer": "Leave-In Conditioner: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "scent",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "What does Shampoo do?",
+    "answer": "Shampoo: Cleanses hair and scalp. The product page says it is suitable for a range of hair types.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "purpose",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "How do I apply Shampoo?",
+    "answer": "Shampoo: Focus shampoo on the scalp. Choose wash frequency based on your scalp oil and buildup, then follow with conditioner.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "application",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "How often should I use Shampoo?",
+    "answer": "Shampoo: Product page says suitable for daily use; frequency depends on the customer.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "frequency",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "What hair types is Shampoo for?",
+    "answer": "Shampoo: Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "suitability",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "Should I apply Shampoo on wet or dry hair?",
+    "answer": "Shampoo: I don’t have verified directions for whether to apply it to wet, damp, or dry hair. Focus shampoo on the scalp. Choose wash frequency based on your scalp oil and buildup, then follow with conditioner. Check the product label or page.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "hair state",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "Can I use Shampoo with other products?",
+    "answer": "Shampoo: Follow with our Conditioner.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "pairing",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "What ingredients are in Shampoo?",
+    "answer": "Shampoo: The reviewed page lists these ingredients: Water, Coco-Glucoside, Glycerin, Cetearyl Olivate & Sorbitan Olivate (Olivem1000), Guar Gum, Citric Acid, Peppermint Oil, Potassium Sorbate + Sodium Benzoate, Hydrolyzed Keratin, Vitamin E, Avocado Oil, Coconut Oil, Argan Oil, Aloe Vera, Arginine. Check your product label for its current formula and variant.\nSource: https://based.com/products/shampoo",
+    "product": "Shampoo",
+    "intent": "ingredients",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "What does Shampoo smell like?",
+    "answer": "Shampoo: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "scent",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "What does Conditioner do?",
+    "answer": "Conditioner: A rinse-out conditioner for hydration after shampooing.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "purpose",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "How do I apply Conditioner?",
+    "answer": "Conditioner: After shampooing, apply conditioner and rinse. For drier hair, the guide suggests leaving it in for 2–3 minutes before rinsing. After washing\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "application",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "How often should I use Conditioner?",
+    "answer": "Conditioner: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "frequency",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "What hair types is Conditioner for?",
+    "answer": "Conditioner: I don’t have verified hair-type guidance for this product. Check the product page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "suitability",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "Should I apply Conditioner on wet or dry hair?",
+    "answer": "Conditioner: I don’t have verified directions for whether to apply it to wet, damp, or dry hair. After shampooing, apply conditioner and rinse. For drier hair, the guide suggests leaving it in for 2–3 minutes before rinsing. Check the product label or page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "hair state",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "Can I use Conditioner with other products?",
+    "answer": "Conditioner: May follow Shampoo.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "pairing",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "What ingredients are in Conditioner?",
+    "answer": "Conditioner: The reviewed page lists these ingredients: Water, Cetearyl Alcohol, Glycerin, Caprylyl/Capryl Glucoside, Hydrolyzed Keratin, Potassium Sorbate + Sodium Benzoate, Hydroxyethylcellulose, Guar Hydroxypropyltrimonium Chloride, Peppermint Oil, Vitamin E, Coconut Oil, Argan Oil, Arginine, Citric Acid, Sodium Gluconate. Check your product label for its current formula and variant.\nSource: https://based.com/products/conditioner",
+    "product": "Conditioner",
+    "intent": "ingredients",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "What does Conditioner smell like?",
+    "answer": "Conditioner: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "scent",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "What does Hair Elixir do?",
+    "answer": "Hair Elixir: Adds shine and softness and helps smooth flyaways.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "purpose",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "How do I apply Hair Elixir?",
+    "answer": "Hair Elixir: Distribute one pump between palms and apply to mid-lengths and ends, avoiding roots. Damp after washing or dry hair\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "application",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "How often should I use Hair Elixir?",
+    "answer": "Hair Elixir: As needed\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "frequency",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "What hair types is Hair Elixir for?",
+    "answer": "Hair Elixir: Our Hair Elixir page describes it as suitable for straight, wavy, curly and coily hair, including fine and thick hair.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "suitability",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "Should I apply Hair Elixir on wet or dry hair?",
+    "answer": "Hair Elixir: Damp after washing or dry hair\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "hair state",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "Can I use Hair Elixir with other products?",
+    "answer": "Hair Elixir: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "pairing",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "What ingredients are in Hair Elixir?",
+    "answer": "Hair Elixir: The reviewed page lists these ingredients: Simmondsia Chinensis (Jojoba) Seed Oil (Organic), Argania Spinosa Kernel Oil, Adansonia Digitata, Sclerocarya Birrea (Marula) Seed Oil, Meadowfoam Estolide, Mauritia Flexuosa Fruit Oil, Brassica Oleracea Italica (Broccoli) Seed Oil, Santal Sandalwood, Caryodendron Orinocense (Kahai) Seed Oil, Schinziophyton Rautanenii (Mongongo) Kernel Oil. Check your product label for its current formula and variant.\nSource: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "ingredients",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "What does Hair Elixir smell like?",
+    "answer": "Hair Elixir: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "scent",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "What does Multi-Active Skin Elixir do?",
+    "answer": "Multi-Active Skin Elixir: Helps skin look brighter, smoother and hydrated.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "purpose",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "How do I apply Multi-Active Skin Elixir?",
+    "answer": "Multi-Active Skin Elixir: Apply one pump after cleansing and before moisturizer; in the morning follow with SPF. If using Skin Revival Spray, let the spray dry completely first or use the products at separate times. After cleansing; before moisturizer\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "application",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "How often should I use Multi-Active Skin Elixir?",
+    "answer": "Multi-Active Skin Elixir: Once daily\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "frequency",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "What ingredients are in Multi-Active Skin Elixir?",
+    "answer": "Multi-Active Skin Elixir: The reviewed page lists these ingredients: Water (Aqua), Glycerin, Caprylic/Capric Triglyceride, Bakuchiol, Sambucus Nigra Fruit Extract, Solanum Melongena (Eggplant) Fruit Extract, Lactobacillus/Acerola Cherry Ferment, Squalane, Xanthan Gum, Sucrose Laurate, Sucrose Stearate, Tocopherol, Ipomoea Batatas Root Extract, Citric Acid, Acacia Senegal Gum, Maltodextrin, Sodium Benzoate, Potassium Sorbate, Spirulina Platensis Extract, Trehalose, Sodium Citrate, Cucumis Sativus (Cucumber) Fruit Water. Check your product label for its current formula and variant.\nSource: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "ingredients",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "What does Multi-Active Skin Elixir smell like?",
+    "answer": "Multi-Active Skin Elixir: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "scent",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "Can I use Multi-Active Skin Elixir with other products?",
+    "answer": "Multi-Active Skin Elixir: Do not layer directly with Skin Revival Spray; use at separate times or let spray dry completely.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "pairing",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "What does Under Eye Elixir do?",
+    "answer": "Under Eye Elixir: Provides under-eye hydration.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "purpose",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "How do I apply Under Eye Elixir?",
+    "answer": "Under Eye Elixir: Dab one pump gently under eyes; apply after cleansing and before heavier products.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "application",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "How often should I use Under Eye Elixir?",
+    "answer": "Under Eye Elixir: Morning and night per product page\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "frequency",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "What ingredients are in Under Eye Elixir?",
+    "answer": "Under Eye Elixir: The reviewed page lists these ingredients: Water, Magnifera Indica (Mango) Seed Butter, Cetearyl Olivate, Sorbitan Olivate, Glyceryl Stearate, Stearic Acid, Squalane, Caffeine, Arctostaphylos Uva-Ursi (Bearberry) Extract, Bisabolol, Clitoria Ternatea (Butterfly Pea) Flower Extract, Tanacetum Annuum (Blue Tansy) Flower/Leaf/Stem Extract, Malachite Extract, Tocopherol, Xanthan Gum, Citric Acid, Potassium Sorbate + Sodium Benzoate. Check your product label for its current formula and variant.\nSource: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "ingredients",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "What does Under Eye Elixir smell like?",
+    "answer": "Under Eye Elixir: The page describes a subtle natural botanical aroma with no added synthetic fragrance.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "scent",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "Can I use Under Eye Elixir with other products?",
+    "answer": "Under Eye Elixir: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "pairing",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "What does Skin Revival Spray do?",
+    "answer": "Skin Revival Spray: A refreshing face spray.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "purpose",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "How do I apply Skin Revival Spray?",
+    "answer": "Skin Revival Spray: Close eyes and spray evenly; do not rinse. Let dry before serums or moisturizer.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "application",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "How often should I use Skin Revival Spray?",
+    "answer": "Skin Revival Spray: Use as needed. Close your eyes, spray evenly, and let it dry before other products.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "frequency",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "What ingredients are in Skin Revival Spray?",
+    "answer": "Skin Revival Spray: The page identifies these ingredients, but we don’t have a complete ingredient list: Hypochlorous Acid (HOCl). Check your product label for its current formula and variant.\nSource: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "ingredients",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "What does Skin Revival Spray smell like?",
+    "answer": "Skin Revival Spray: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "scent",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "Can I use Skin Revival Spray with other products?",
+    "answer": "Skin Revival Spray: Do not layer directly with Skin Elixir; use at separate times or allow the spray to dry completely.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "pairing",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "What does Daily Facial Cleanser do?",
+    "answer": "Daily Facial Cleanser: A facial cleanser.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "purpose",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "How do I apply Daily Facial Cleanser?",
+    "answer": "Daily Facial Cleanser: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "application",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "How often should I use Daily Facial Cleanser?",
+    "answer": "Daily Facial Cleanser: Daily use is an option according to the product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "frequency",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "What ingredients are in Daily Facial Cleanser?",
+    "answer": "Daily Facial Cleanser: The reviewed page lists these ingredients: Water, Decyl Glucoside, Glycerin, Glycol Distearate, Willow Bark Extract, Bamboo Charcoal, Green Tea Extract, Eucalyptus Leaf Extract, Xanthan Gum, Citric Acid, Potassium Sorbate + Sodium Benzoate. The page has conflicting ingredient information, so please verify the label. Check your product label for its current formula and variant.\nSource: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "ingredients",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "What does Daily Facial Cleanser smell like?",
+    "answer": "Daily Facial Cleanser: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "scent",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "Can I use Daily Facial Cleanser with other products?",
+    "answer": "Daily Facial Cleanser: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "pairing",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "What does Daily Facial Moisturizer do?",
+    "answer": "Daily Facial Moisturizer: A lightweight facial moisturizer.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "purpose",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "How do I apply Daily Facial Moisturizer?",
+    "answer": "Daily Facial Moisturizer: Our general routine guide suggests applying moisturizer to slightly damp skin. Slightly damp skin, according to our general routine guide\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "application",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "How often should I use Daily Facial Moisturizer?",
+    "answer": "Daily Facial Moisturizer: Morning and night per product page\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "frequency",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "What ingredients are in Daily Facial Moisturizer?",
+    "answer": "Daily Facial Moisturizer: The reviewed page lists these ingredients: Water, Glycerin, Caprylic/Capric Triglyceride, Cetearyl Olivate, Sorbitan Olivate, Squalane, Rosehip Oil, Aloe Leaf Juice, Chamomile Extract, Eucalyptus Leaf Extract, Ceramide NP, Panthenol, Citric Acid, Carrageenan, Sclerotium Gum, Potassium Sorbate + Sodium Benzoate. Check your product label for its current formula and variant.\nSource: https://based.com/products/daily-facial-moisturizer",
+    "product": "Daily Facial Moisturizer",
+    "intent": "ingredients",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "What does Daily Facial Moisturizer smell like?",
+    "answer": "Daily Facial Moisturizer: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "scent",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "Can I use Daily Facial Moisturizer with other products?",
+    "answer": "Daily Facial Moisturizer: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "pairing",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "What does Tallow Moisturizer do?",
+    "answer": "Tallow Moisturizer: A moisturizer for face and other dry areas.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "purpose",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "How do I apply Tallow Moisturizer?",
+    "answer": "Tallow Moisturizer: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "application",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "How often should I use Tallow Moisturizer?",
+    "answer": "Tallow Moisturizer: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "frequency",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "What ingredients are in Tallow Moisturizer?",
+    "answer": "Tallow Moisturizer: The reviewed page lists these ingredients: Grass Fed Beef Tallow, Organic Raw Manuka Honey, Organic Rosehip Oil (Rosa Rubiginosa), Tocopherol (Vitamin E). Check your product label for its current formula and variant.\nSource: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "ingredients",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "What does Tallow Moisturizer smell like?",
+    "answer": "Tallow Moisturizer: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "scent",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "Can I use Tallow Moisturizer with other products?",
+    "answer": "Tallow Moisturizer: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "pairing",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "What does Body Lotion do?",
+    "answer": "Body Lotion: Moisturizes the body.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "purpose",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "How do I apply Body Lotion?",
+    "answer": "Body Lotion: After showering, massage into the body until absorbed, focusing on dry areas.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "application",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "How often should I use Body Lotion?",
+    "answer": "Body Lotion: Daily or reapply as needed\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "frequency",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "What ingredients are in Body Lotion?",
+    "answer": "Body Lotion: The reviewed page lists these ingredients: Water (Aqua), Glycerin, Cetearyl Olivate, Sorbitan Olivate, Mangifera Indica (Mango) Seed Butter, Squalane, Rosa Canina (Rosehip) Seed Oil, Ceramide NP, Saccharide Isomerate, Avena Sativa (Oat) Kernel Extract, Arginine, Tocopherol (Vitamin E), Citric Acid, Xanthan Gum, Potassium Sorbate + Sodium Benzoate, Naturally Derived Fragrance. Check your product label for its current formula and variant.\nSource: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "ingredients",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "What does Body Lotion smell like?",
+    "answer": "Body Lotion: Our Body Lotion product page lists Alpine, Santal and Amber scents; check available variants.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "scent",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "Can I use Body Lotion with other products?",
+    "answer": "Body Lotion: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "pairing",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "What does Body Wash do?",
+    "answer": "Body Wash: Cleanses the body.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "purpose",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "How do I apply Body Wash?",
+    "answer": "Body Wash: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "application",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "How often should I use Body Wash?",
+    "answer": "Body Wash: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "frequency",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "What ingredients are in Body Wash?",
+    "answer": "Body Wash: The reviewed page lists these ingredients: Decyl Glucoside, Water, Glycerin, Glycol Distearate, Xanthan Gum, Potassium Sorbate + Sodium Benzoate, Manuka Honey, Chamomilla Recutita (Matricaria) Flower Extract, Hyaluronic Acid, Aloe Barbadensis Leaf Powder, Butyrospermum Parkii (Shea) Butter, Simmondsia Chinensis (Jojoba) Seed Oil, Sea Salt, Citric Acid, Selected Scent. Check your product label for its current formula and variant.\nSource: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "ingredients",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "What does Body Wash smell like?",
+    "answer": "Body Wash: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "scent",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "Can I use Body Wash with other products?",
+    "answer": "Body Wash: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "pairing",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "What does Deodorant do?",
+    "answer": "Deodorant: Provides odor protection.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "purpose",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "How do I apply Deodorant?",
+    "answer": "Deodorant: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "application",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "How often should I use Deodorant?",
+    "answer": "Deodorant: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "frequency",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "What ingredients are in Deodorant?",
+    "answer": "Deodorant: The reviewed page lists these ingredients: Caprylic/Capric Triglyceride, Coconut Oil, Magnesium Hydroxide, Magnesium Carbonate Hydroxide, Carnauba Wax, Tapioca Starch, Beeswax, Candelilla Wax, Santal Sandalwood, Shea Butter, Tocopherol (Vitamin E), Polyhydroxystearic Acid. Check your product label for its current formula and variant.\nSource: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "ingredients",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "What does Deodorant smell like?",
+    "answer": "Deodorant: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "scent",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "Can I use Deodorant with other products?",
+    "answer": "Deodorant: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "pairing",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "What should I use to clear my skin?",
+    "answer": "For a simple skincare starting point, you can explore our Daily Facial Cleanser and Daily Facial Moisturizer. They support cleansing and hydration, but I can’t promise they’ll clear acne. Are you already using either one?",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What should I use for clear skin?",
+    "answer": "For a simple skincare starting point, you can explore our Daily Facial Cleanser and Daily Facial Moisturizer. They support cleansing and hydration, but I can’t promise they’ll clear acne. Are you already using either one?",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What helps with breakouts?",
+    "answer": "For a simple skincare starting point, you can explore our Daily Facial Cleanser and Daily Facial Moisturizer. They support cleansing and hydration, but I can’t promise they’ll clear acne. Are you already using either one?",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "I have curly hair and want defined curls. What do you recommend?",
+    "answer": "For curl definition, you could explore Curl Cream, Curl Gel, Curl Mousse. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "I have straight hair and want a slick back. What should I use?",
+    "answer": "For slicked-back, you could explore Pomade. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "I have wavy hair and want a fluffy look. What should I use?",
+    "answer": "For volume, you could explore Texture Powder, Sea Salt Spray. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "How can I reduce frizz in my wavy hair?",
+    "answer": "For hydration and frizz control, you could explore Conditioner, Leave-In Conditioner, Hair Elixir. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What should I use for dry body skin?",
+    "answer": "For body hydration, you could explore Body Lotion. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "Which products for shiny slick back hair?",
+    "answer": "For slicked-back, you could explore Pomade. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What helps with body odor?",
+    "answer": "For your goal, you could explore Body Wash, Body Lotion, Deodorant. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "How do I get beachy waves?",
+    "answer": "For beachy texture, try our Sea Salt Spray: spray onto damp or dry hair, then scrunch and air-dry or blow-dry. Do you already have it?",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "Can I use sea salt spray and hair clay together?",
+    "answer": "Yes. Our Sea Salt Spray can be used before Hair Clay. For our maximum-volume look, apply Hair Clay to dry hair; use on damp or wet hair has not been verified.\n\nSources: https://based.com/products/sea-salt-spray · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "Which product gives curls a strong hold?",
+    "answer": "For strong hold, you could explore Curl Gel. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "How do I get more volume for curly hair?",
+    "answer": "For volume, you could explore Curl Mousse. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What do I use for dry ends?",
+    "answer": "For hydration and frizz control, you could explore Conditioner, Leave-In Conditioner, Hair Elixir. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What should I use for wavy frizzy hair?",
+    "answer": "For hydration and frizz control, you could explore Conditioner, Leave-In Conditioner, Hair Elixir. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "What works for straight hair?",
+    "answer": "For straight hair, what look are you going for: more volume, matte texture, or a slick finish? I’ll suggest products that fit.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "I have curly hair and want definition. Recommend products.",
+    "answer": "For curly, you could explore Curl Cream, Curl Gel, Curl Mousse. Which of our products do you already own? I can build a routine around them.",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "Help me build a skin routine",
+    "answer": "Which products do you own? Tap “My products” above, or say “none.”",
+    "intent": "goal or routine"
+  },
+  {
+    "question": "Can I use curl mousse with curl gel?",
+    "answer": "Curl Mousse: Apply after our Leave-In Conditioner or Curl Cream. For lift and hold, use Mousse at the roots and Curl Gel on the lengths.\n\nSources: https://based.com/products/curl-mousse\n\nCurl Gel: Our product page suggests layering after Leave-In Conditioner or Curl Cream. Curl Mousse can add lift at the roots.\n\nSources: https://based.com/products/curl-gel",
+    "intent": "goal or routine"
+  }
+]
