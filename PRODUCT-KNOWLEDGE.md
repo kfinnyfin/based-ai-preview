@@ -28,3 +28,9 @@ Sources for hair guidance:
 Skin and body sources are recorded on each individual catalog entry. A BASED product or education owner should review all guidance and resolve missing directions before use with real customers.
 
 The simulated FAQ bank now includes product purposes for all 21 individual catalog entries, and selected verified information about hold, finish, scent, amounts, bottle life, application, pairing and suitability where available. It does not reproduce every FAQ or imply that all website pages and variants have been verified. Estimates are attributed to the product page, and unsupported questions should be checked against the product label or page.
+
+## Follow-up research — 8 November 2026
+
+The current public product pages were revisited for all 21 individual catalog entries; the Skin Elixir page required its explicit variant URL. The evidence snapshot in `PRODUCT-EVIDENCE.md` lists the demo's current directions, suitability, source links and missing fields for each entry. This is a working audit, not proof that all variants, source claims, or video demonstrations were independently verified. The four missing application instructions for Daily Facial Cleanser, Tallow Moisturizer, Body Wash and Deodorant remain unknown in the demo. Ingredient and availability snapshots require label verification.
+
+The Conditioner product page identifies all hair types and lengths and describes daily use as an option. Curl Gel's FAQ gives a quarter-sized amount for medium-length hair and recommends wet or damp hair, sectioning, scrunching, and drying before scrunching out the cast. Skin Elixir's linked variant states no added fragrance. Marketing claims and individual safety assurances have not been treated as verified outcomes.

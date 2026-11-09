@@ -53,7 +53,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Adds volume and texture, especially at the roots.",
       "bottle": "The product page estimates 60–90 days per bottle on average; actual use varies."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "sea-salt-spray",
@@ -112,7 +113,8 @@ window.BASED_CATALOG = [
       "purpose": "Creates a beachy, textured look with natural-looking volume.",
       "hold": "It provides light, buildable hold.",
       "finish": "A matte finish for beachy texture."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "hair-clay",
@@ -170,7 +172,8 @@ window.BASED_CATALOG = [
       "finish": "Matte, textured finish.",
       "scent": "Our Hair Clay has a light Santal scent.",
       "rinse": "Wash it out with shampoo."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "pomade",
@@ -227,7 +230,8 @@ window.BASED_CATALOG = [
       "purpose": "Creates slick, shiny styles such as slick backs, flows and side parts.",
       "finish": "A shiny finish for slick or wet looks.",
       "scent": "Our Pomade has a Santal Sandalwood scent."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "curl-mousse",
@@ -279,7 +283,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Adds volume and definition with flexible hold to wavy, curly or coily hair.",
       "hold": "Designed for flexible hold and volume."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "curl-gel",
@@ -288,7 +293,7 @@ window.BASED_CATALOG = [
     "description": "Maximum hold and definition",
     "source": "https://based.com/products/curl-gel",
     "image": "assets/new/curl-gel.png",
-    "directions": "Apply to freshly wet hair in sections, rake through and scrunch; dry completely, then scrunch out the cast.",
+    "directions": "Apply to freshly wet or damp hair in sections. The product page suggests a quarter-sized amount for medium-length hair; rake through, scrunch upward, air-dry or diffuse completely, then scrunch out the cast.",
     "condition": "Wet or damp curly and coily hair",
     "frequency": null,
     "ingredients": [
@@ -335,7 +340,8 @@ window.BASED_CATALOG = [
       "purpose": "Adds strong hold and definition to curly and coily hair.",
       "hold": "Designed for strong hold and definition.",
       "cast": "Let the gel dry completely, then gently scrunch out the cast for softer curls."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "curl-refresh-spray",
@@ -387,7 +393,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Refreshes curl definition between wash days.",
       "frequency": "Use on slightly damp day-two or day-three curls, or whenever you need a refresh."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "curl-cream",
@@ -457,7 +464,8 @@ window.BASED_CATALOG = [
     "suitability": "Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look.",
     "faq": {
       "purpose": "Adds definition, moisture and control to curls and coils."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "leave-in-conditioner",
@@ -524,7 +532,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Adds moisture and helps control frizz, particularly for wavy, curly and coily hair.",
       "dryFit": "Designed in particular for dry or frizz-prone wavy, curly and coily hair."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "shampoo",
@@ -581,7 +590,8 @@ window.BASED_CATALOG = [
     "suitability": "Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair.",
     "faq": {
       "purpose": "Cleanses hair and scalp. The product page says it is suitable for a range of hair types."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "conditioner",
@@ -592,7 +602,7 @@ window.BASED_CATALOG = [
     "image": "assets/new/conditioner.png",
     "directions": "After shampooing, apply conditioner and rinse. For drier hair, the guide suggests leaving it in for 2–3 minutes before rinsing.",
     "condition": "After washing",
-    "frequency": null,
+    "frequency": "Our product page says daily use is an option; choose a frequency that works for your hair.",
     "ingredients": [
       "Water",
       "Cetearyl Alcohol",
@@ -637,7 +647,9 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
     "faq": {
       "purpose": "A rinse-out conditioner for hydration after shampooing."
-    }
+    },
+    "reviewedAt": "2026-11-08",
+    "suitability": "Our Conditioner page describes it as suitable for all hair types and lengths, including fine and thick hair."
   },
   {
     "id": "hair-elixir",
@@ -687,7 +699,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Adds shine and softness and helps smooth flyaways.",
       "dryFit": "Our Hair Elixir is designed for straight, wavy, curly and coily hair; apply to mid-lengths and ends."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "skin-elixir",
@@ -748,8 +761,10 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "Helps skin look brighter, smoother and hydrated.",
       "amount": "Use one pump for the face.",
-      "bottle": "The product page estimates roughly three months per bottle with daily use."
-    }
+      "bottle": "The product page estimates roughly three months per bottle with daily use.",
+      "scent": "Our Skin Elixir product page says it has no added fragrance."
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "under-eye-elixir",
@@ -815,7 +830,8 @@ window.BASED_CATALOG = [
       "amount": "Use one pump and dab gently under the eyes.",
       "bottle": "The product page estimates two to three months per bottle with twice-daily use; actual use varies.",
       "scent": "The page describes a subtle natural botanical aroma with no added synthetic fragrance."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "skin-revival-spray",
@@ -860,7 +876,8 @@ window.BASED_CATALOG = [
       "purpose": "A refreshing face spray.",
       "frequency": "Use as needed. Close your eyes, spray evenly, and let it dry before other products.",
       "rinse": "No rinse is needed; allow it to dry before applying serums or moisturizer."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "daily-facial-cleanser",
@@ -901,7 +918,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Default page; exact variant not established FAQ mentions aloe, but the published full list does not; conflict not resolved. Do not claim aloe absence.",
     "faq": {
       "purpose": "A facial cleanser."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "daily-facial-moisturizer",
@@ -950,7 +968,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Default page; exact variant not established",
     "faq": {
       "purpose": "A lightweight facial moisturizer."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "tallow-moisturizer",
@@ -993,7 +1012,8 @@ window.BASED_CATALOG = [
     "faq": {
       "purpose": "A moisturizer for face and other dry areas.",
       "where": "The product page lists the face, hands, arms and elbows as possible areas of use."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "body-lotion",
@@ -1073,7 +1093,8 @@ window.BASED_CATALOG = [
       "purpose": "Moisturizes the body.",
       "scent": "Our Body Lotion product page lists Alpine, Santal and Amber scents; check available variants.",
       "bottle": "The product page estimates two to three months per bottle with daily full-body use; actual use varies."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "bodywash",
@@ -1150,7 +1171,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Page generic formula; selected scent varies Page describes selected scent as naturally derived fragrance, but does not specify its full composition.",
     "faq": {
       "purpose": "Cleanses the body."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   },
   {
     "id": "deodorant",
@@ -1224,6 +1246,7 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Page's displayed full list identifies Santal Sandalwood; other scents unverified Page treats Santal Sandalwood as naturally derived fragrance but does not list full fragrance composition.",
     "faq": {
       "purpose": "Provides odor protection."
-    }
+    },
+    "reviewedAt": "2026-11-08"
   }
 ];

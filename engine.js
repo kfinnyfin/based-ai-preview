@@ -141,7 +141,7 @@
     const known=s.ownershipKnown?s.ownedIds:[];const order=s.category==='skin'?SKIN_ORDER:s.category==='body'?BODY_ORDER:HAIR_ORDER;
     const selected=order.map(id=>find(catalog,id)).filter(p=>p&&known.includes(p.id));
     for(const p of selected){const rank=order.indexOf(p.id)+1;
-      if(p.id==='curl-gel'&&(s.hairType==='straight'||s.hairType==='wavy'))continue;
+      if(p.id==='curl-gel'&&((s.hairType==='straight'||s.hairType==='wavy')||s.hairLength==='0–2 inches'||s.hairLength==='2–4 inches'))continue;
       if(p.id==='pomade'&&s.goal==='slicked-back'){addStep(result,'As needed',{...p,directions:null},rank,'I don’t have verified application steps for a slicked-back look; check the product label.');continue;}
       if(s.category==='hair'&&(p.id==='shampoo'||p.id==='conditioner')){for(const day of s.washDays){const product=p.id==='shampoo'&&!known.includes('conditioner')?{...p,directions:(p.directions||'').replace(/, then follow with conditioner\.?/i,'.')}:p;addStep(result,day,product,rank,s.washDaysProvisional?'This is an editable example day.':'');}}
       else if(s.category==='hair'&&['leave-in-conditioner','hair-elixir'].includes(p.id)&&s.washDays.length&&/damp|wet/i.test(p.condition||'')){for(const day of s.washDays)addStep(result,day,p,rank,s.washDaysProvisional?'This is an editable example day.':null);}

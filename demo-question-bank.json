@@ -288,7 +288,7 @@
   },
   {
     "question": "How do I apply Curl Gel?",
-    "answer": "Curl Gel: Apply to freshly wet hair in sections, rake through and scrunch; dry completely, then scrunch out the cast. Wet or damp curly and coily hair\n\nSources: https://based.com/products/curl-gel",
+    "answer": "Curl Gel: Apply to freshly wet or damp hair in sections. The product page suggests a quarter-sized amount for medium-length hair; rake through, scrunch upward, air-dry or diffuse completely, then scrunch out the cast. Wet or damp curly and coily hair\n\nSources: https://based.com/products/curl-gel",
     "product": "Curl Gel",
     "intent": "application",
     "source": "https://based.com/products/curl-gel"
@@ -309,7 +309,7 @@
   },
   {
     "question": "Should I apply Curl Gel on wet or dry hair?",
-    "answer": "Curl Gel: Apply to freshly wet hair in sections, rake through and scrunch; dry completely, then scrunch out the cast.\n\nSources: https://based.com/products/curl-gel",
+    "answer": "Curl Gel: Apply to freshly wet or damp hair in sections. The product page suggests a quarter-sized amount for medium-length hair; rake through, scrunch upward, air-dry or diffuse completely, then scrunch out the cast.\n\nSources: https://based.com/products/curl-gel",
     "product": "Curl Gel",
     "intent": "hair state",
     "source": "https://based.com/products/curl-gel"
@@ -575,14 +575,14 @@
   },
   {
     "question": "How often should I use Conditioner?",
-    "answer": "Conditioner: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "answer": "Conditioner: Our product page says daily use is an option; choose a frequency that works for your hair.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
     "product": "Conditioner",
     "intent": "frequency",
     "source": "https://based.com/products/conditioner"
   },
   {
     "question": "What hair types is Conditioner for?",
-    "answer": "Conditioner: I don’t have verified hair-type guidance for this product. Check the product page.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "answer": "Conditioner: Our Conditioner page describes it as suitable for all hair types and lengths, including fine and thick hair.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
     "product": "Conditioner",
     "intent": "suitability",
     "source": "https://based.com/products/conditioner"
@@ -701,7 +701,7 @@
   },
   {
     "question": "What does Multi-Active Skin Elixir smell like?",
-    "answer": "Multi-Active Skin Elixir: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "answer": "Multi-Active Skin Elixir: Our Skin Elixir product page says it has no added fragrance.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
     "product": "Multi-Active Skin Elixir",
     "intent": "scent",
     "source": "https://based.com/products/skin-elixir?variant=49975203037413"

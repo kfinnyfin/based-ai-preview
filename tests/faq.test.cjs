@@ -24,3 +24,8 @@ let state=ask(BasedEngine.initialState(),'What does hair clay do?').state;
 assert.match(ask(state,'How do I wash it out?').reply,/shampoo/i);
 assert.match(ask(BasedEngine.initialState(),'I have coily hair and want volume. Please suggest products.').reply,/Curl Mousse/i);
 console.log('FAQ and follow-up tests passed ('+(cases.length+2)+' cases).');
+assert.match(ask(BasedEngine.initialState(),'What hair types is conditioner for?').reply,/all hair types/i);
+assert.match(ask(BasedEngine.initialState(),'How much curl gel should I use?').reply,/quarter-sized.*medium-length/i);
+assert.match(ask(BasedEngine.initialState(),'Does skin elixir have a scent?').reply,/no added fragrance/i);
+const short={...BasedEngine.initialState(),hairType:'curly',hairLength:'0–2 inches',ownershipKnown:true,ownedIds:['curl-gel']};
+assert.equal(BasedEngine.generateRoutine(short,BASED_CATALOG).some(step=>step.productId==='curl-gel'),false);
