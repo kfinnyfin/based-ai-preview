@@ -83,7 +83,7 @@
     if(/\b(?:only (?:use|using)|use only|use what i (?:have|own)|products i (?:already )?own|what i already have)\b/.test(lower))s.useOwnedOnly=true;
     if(/\b(?:recommend|suggest|open to buying|can buy|other products)\b/.test(lower))s.useOwnedOnly=false;
     const hasWashContext=/\b(?:wash|shampoo|routine|schedule|days?)\b/.test(lower)||s.lastQuestion==='washDays'||s.lastQuestion==='category'||s.washDays.length>0&&/\b(?:actually|instead|change|changed|correction)\b/.test(lower);
-    if(hasWashContext){const days=DAYS.filter(day=>new RegExp('\\b'+day.toLowerCase()+'s?\\b').test(lower));if(days.length){s.washDays=days;s.washFrequency=days.length;s.washDaysProvisional=false;}
+    if(hasWashContext){const days=DAYS.filter(day=>new RegExp('\\b'+day.toLowerCase()+'s?\\b').test(lower));if(days.length){s.washDays=days;s.washFrequency=days.length;s.washDaysProvisional=/\b(?:example|sample)\b/i.test(lower);}
       else {const count=lower.match(/\b(once|twice|one|two|three|four|five|six|seven|[1-7])\s*(?:times?|x)?\s*(?:a|per|each|every)\s*week\b|\b([1-7])\s*(?:x|times?)\s*(?:weekly|a week|per week)\b/);
         if(count){const num={once:1,twice:2,one:1,two:2,three:3,four:4,five:5,six:6,seven:7}[count[1]]||Number(count[1]||count[2]); const examples={1:['Monday'],2:['Monday','Thursday'],3:['Monday','Wednesday','Saturday'],4:['Monday','Wednesday','Friday','Sunday'],5:['Monday','Tuesday','Thursday','Friday','Sunday'],6:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],7:DAYS};s.washFrequency=num;s.washDays=examples[num].slice();s.washDaysProvisional=true;}}
     }
@@ -209,6 +209,13 @@
       if(available.length<guide.productSteps.length)lines.push('This is the part of our guide that uses your selected products.');
       lines.push('Source: '+guide.source);return {state:s,localOnly:true,reply:lines.join('\n\n')};
     }
+    if(s.lastQuestion==='washDays'&&!s.washDays.length&&/^(?:i (?:do not|don't) know|not sure|unsure|i dunno|idk|help|you choose|whatever|every other day)[.!?\s]*$/i.test(message)){
+      return {state:s,localOnly:true,reply:'No problem. Choose your wash days, or try an editable example: Monday, Wednesday and Friday. You can change it later.'};
+    }
+    if(s.lastQuestion==='washDays'&&!s.washDays.length){
+      const simple=lower.match(/^\s*(once|twice|one|two|three|four|five|six|seven|[1-7])\s*(?:times?|x)?\s*[.!]?\s*$/);
+      if(simple){const n={once:1,twice:2,one:1,two:2,three:3,four:4,five:5,six:6,seven:7}[simple[1]]||Number(simple[1]);const examples={1:['Monday'],2:['Monday','Thursday'],3:['Monday','Wednesday','Saturday'],4:['Monday','Wednesday','Friday','Sunday'],5:['Monday','Tuesday','Thursday','Friday','Sunday'],6:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],7:DAYS};s.washFrequency=n;s.washDays=examples[n].slice();s.washDaysProvisional=true;}
+    }
     const answeringPending=(s.lastQuestion==='washDays'&&s.washDays.length>0)||(s.lastQuestion==='owned'&&(s.ownershipKnown||mentions.length>0))||(s.lastQuestion==='category'&&/\b(?:hair|skin|body)\b/.test(lower));
     const routineIntent=/\b(?:routine|schedule|plan|steps|regenerate|what should i do|what do i do|make me|create|build)\b/.test(lower)||answeringPending;
     if(!routineIntent&&s.lastQuestion)s.lastQuestion=null;
@@ -239,7 +246,7 @@
         return {state:s,reply,localOnly:true};}
     }
     if(routineIntent){
-      if(!s.ownershipKnown){s.lastQuestion='owned';return {state:s,reply:'Which products do you own? Tap “Choose products I own” or say “none.”'};}
+      if(!s.ownershipKnown){s.lastQuestion='owned';return {state:s,reply:'Which products do you own? Tap “My products” above, or say “none.”'};}
       const ownedCategories=unique(s.ownedIds.map(id=>find(catalog,id)?.category).filter(Boolean));
       if(ownedCategories.length>1&&!s.categoryExplicit){s.lastQuestion='category';return {state:s,reply:`You have products for ${ownedCategories.join(', ')}. Which routine should we build first: ${ownedCategories.join(', ')}?`};}
       const ownedCategory=s.ownedIds.filter(id=>{const p=find(catalog,id);return p&&p.category===s.category;});
