@@ -31,7 +31,7 @@
     const bundles=Array.isArray(root.BASED_BUNDLES)?root.BASED_BUNDLES:[];
     return bundles.filter(b=>b&&typeof b.name==='string'&&b.name&&Array.isArray(b.products)&&bundleNames(b).some(name=>new RegExp('(?:^|[^a-z0-9])'+bundlePattern(name)+'(?=$|[^a-z0-9])','i').test(text)));
   }
-  function initialState(){return {version:1,category:'hair',hairType:null,hairLength:null,goal:null,ownershipKnown:false,ownedIds:[],notOwnedIds:[],washDays:[],washFrequency:null,washDaysProvisional:false,notes:[],useOwnedOnly:true,categoryExplicit:false,safetyHold:false,lastQuestion:null,lastProductId:null,lastProductIds:[],lastBundleId:null};}
+  function initialState(){return {version:1,category:'hair',hairType:null,hairLength:null,hairThickness:null,goal:null,ownershipKnown:false,ownedIds:[],notOwnedIds:[],washDays:[],washFrequency:null,washDaysProvisional:false,notes:[],useOwnedOnly:true,categoryExplicit:false,safetyHold:false,lastQuestion:null,lastProductId:null,lastProductIds:[],lastBundleId:null};}
   function normalize(state){const s={...initialState(),...(state||{})};for(const key of ['ownedIds','notOwnedIds','washDays','notes','lastProductIds'])if(!Array.isArray(s[key]))s[key]=[];if(!s.lastProductIds.length&&s.lastProductId)s.lastProductIds=[s.lastProductId];return s;}
   function productMentions(text,catalog){
     const lower=text.toLowerCase(), matches=[]; const aliases=[];
@@ -94,7 +94,8 @@
     const condition=typeof product.condition==='string'?product.condition.trim():'';
     const direction=safeDirection(product);
     const suitability=/\b(?:for\s+dry\s+hair|(?:good|suitable|best|helpful)\s+(?:for|on)\s+dry\s+hair)\b/i.test(question);
-    const hairTypeQuestion=/\b(?:good|suitable|best|ideal|works?|for)\b[^?]*\b(straight|wavy|curly|coily)\s+hair\b/i.test(question);
+    const hairTypeQuestion=/\b(?:what|which)\s+(?:hair\s+)?types?\b|\b(?:who|whom)\s+(?:is|does)\b|\b(?:good|suitable|best|ideal|works?|for)\b[^?]*\b(?:straight|wavy|curly|coily|fine|thick)\s+hair\b/i.test(question);
+    const pairing=/\b(?:together|combine|combination|mix|mixing|layer|pair|with|alongside)\b/i.test(question);
     const wetDry=/\b(?:wet|dry|damp|towel.dried|soaking)\b/i.test(question)&&/\b(?:apply|application|use|put|spray|style|when|before|after|wet|damp|towel.dried|soaking)\b/i.test(question)&&!suitability;
     const frequencyQuestion=unique([product.name,...(ALIASES[product.id]||[])]).sort((a,b)=>b.length-a.length).reduce((q,name)=>q.replace(new RegExp(esc(name),'ig'),''),question);
     const frequency=/\b(?:how often|how frequently|how many times|every day|daily|frequency)\b/i.test(frequencyQuestion);
@@ -103,6 +104,7 @@
     let body;
     if(product.id==='hair-clay'&&/\b(?:wash|rinse)\s+(?:it\s+|this\s+)?(?:out|off)\b/i.test(question)){body='Our Hair Clay product page says it washes out with shampoo.';}
     else if(suitability){body='I don’t have verified guidance on whether this product suits dry hair. '+(product.description||'Check the product label or page.');}
+    else if(pairing){body=product.combinations||'I don’t have a verified pairing for this product. Check the product page.';}
     else if(hairTypeQuestion){const fit=product.suitability||condition;body=/\b(?:straight|wavy|curly|coily|all hair types)\b/i.test(fit)?fit:'I don’t have verified hair-type guidance for this product. Check the product page.';}
     else if(rinsing){body=direction&&/\brinse\b/i.test(direction)?direction:'I don’t have verified rinse-out instructions for this product. Check the label or product page.';}
     else if(wetDry){
@@ -134,7 +136,9 @@
     }
     return result.sort((a,b)=>{const da=DAYS.indexOf(a.day),db=DAYS.indexOf(b.day);return (da<0?7:da)-(db<0?7:db)||a.order-b.order;});
   }
-  function recommendations(s,catalog){let ids=[];if(s.category==='body')ids=['bodywash','body-lotion','deodorant'];else if(s.category==='skin')ids=['daily-facial-cleanser','daily-facial-moisturizer'];else if(s.goal==='slicked-back')ids=['pomade'];else if(s.goal==='matte texture'||s.goal==='strong hold')ids=s.hairType==='curly'||s.hairType==='coily'?['curl-gel']:['hair-clay'];else if(s.goal==='hydration and frizz control')ids=['conditioner','leave-in-conditioner','hair-elixir'];else if(s.goal==='curl definition'||s.hairType==='curly'||s.hairType==='coily')ids=s.hairType==='wavy'?['curl-cream','curl-mousse']:['curl-cream','curl-gel','curl-mousse'];else if(s.goal==='volume')ids=['texturizing-powder','sea-salt-spray'];else if(s.hairType==='wavy')ids=['sea-salt-spray','curl-mousse'];
+  function recommendations(s,catalog){let ids=[];if(s.category==='body')ids=['bodywash','body-lotion','deodorant'];else if(s.category==='skin')ids=['daily-facial-cleanser','daily-facial-moisturizer'];else if(s.goal==='slicked-back')ids=['pomade'];else if(s.goal==='matte texture'||s.goal==='strong hold')ids=s.hairType==='curly'||s.hairType==='coily'?['curl-gel']:['hair-clay'];else if(s.goal==='hydration and frizz control')ids=s.hairType==='straight'?['conditioner','hair-elixir']:['conditioner','leave-in-conditioner','hair-elixir'];else if(s.goal==='volume')ids=s.hairType==='curly'||s.hairType==='coily'?['curl-mousse']:['texturizing-powder','sea-salt-spray'];else if(s.goal==='curl definition'||s.hairType==='curly'||s.hairType==='coily')ids=s.hairType==='wavy'?['curl-cream','curl-mousse']:['curl-cream','curl-gel','curl-mousse'];else if(s.hairType==='wavy')ids=['sea-salt-spray','curl-mousse'];
+    if(s.hairLength==='0–2 inches'||s.hairLength==='2–4 inches')ids=ids.filter(id=>id!=='curl-gel');
+    if(s.hairLength==='0–2 inches')ids=ids.filter(id=>id!=='curl-refresh-spray');
     return ids.filter(id=>find(catalog,id)&&!s.ownedIds.includes(id)&&(!s.useOwnedOnly||!s.notOwnedIds.includes(id)));}
   function applyMessage(inputState,text,catalog){
     const s=normalize(inputState),message=String(text||'').trim();if(!message)return {state:s,reply:'Tell me what you’d like help with.'};const lower=message.toLowerCase();const mentions=updateFacts(s,message,catalog);

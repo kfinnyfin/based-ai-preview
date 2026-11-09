@@ -48,7 +48,8 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/texturizing-powder",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "Best suited to straight or wavy hair, especially fine or short hair around 0–4 inches."
   },
   {
     "id": "sea-salt-spray",
@@ -73,7 +74,7 @@ window.BASED_CATALOG = [
       "Citric Acid"
     ],
     "warnings": null,
-    "combinations": "Can be used with Hair Clay or Pomade.",
+    "combinations": "Use on its own or before our Hair Clay or Pomade for extra styling.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -101,7 +102,8 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/sea-salt-spray",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "For straight or wavy hair and a textured, beachy look."
   },
   {
     "id": "hair-clay",
@@ -176,7 +178,7 @@ window.BASED_CATALOG = [
       "Argan Oil"
     ],
     "warnings": null,
-    "combinations": "May be paired with Sea Salt Spray.",
+    "combinations": "For a textured look, our Sea Salt Spray can be used before Pomade.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -203,7 +205,8 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/pomade",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "For short-to-medium hair and slick backs, flows or side parts."
   },
   {
     "id": "curl-mousse",
@@ -230,7 +233,7 @@ window.BASED_CATALOG = [
       "Citric Acid"
     ],
     "warnings": null,
-    "combinations": "Can follow Leave-In Conditioner or Curl Cream.",
+    "combinations": "Apply after our Leave-In Conditioner or Curl Cream. For lift and hold, use Mousse at the roots and Curl Gel on the lengths.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -250,7 +253,8 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/curl-mousse",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "For wavy, curly and coily hair (2A–4C); especially useful for fine or low-density hair seeking volume."
   },
   {
     "id": "curl-gel",
@@ -280,7 +284,7 @@ window.BASED_CATALOG = [
       "Beta Vulgaris (Beet) Root Extract"
     ],
     "warnings": null,
-    "combinations": "Can follow Leave-In Conditioner or Curl Cream.",
+    "combinations": "Our product page suggests layering after Leave-In Conditioner or Curl Cream. Curl Mousse can add lift at the roots.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -300,7 +304,8 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/curl-gel",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "For curly and coily hair (3A–4C), around 4 inches or longer."
   },
   {
     "id": "curl-refresh-spray",
@@ -327,7 +332,7 @@ window.BASED_CATALOG = [
       "Sodium Citrate"
     ],
     "warnings": null,
-    "combinations": "May follow curl styling products.",
+    "combinations": "Use between washes to refresh a style made with our Leave-In Conditioner, Curl Cream, Curl Mousse or Curl Gel.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -347,7 +352,8 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/curl-refresh-spray",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "For wavy, curly and coily hair (2A–4C) at least 2 inches long."
   },
   {
     "id": "curl-cream",
@@ -382,7 +388,7 @@ window.BASED_CATALOG = [
       "Naturally Derived Fragrance"
     ],
     "warnings": null,
-    "combinations": "May be paired with Leave-In Conditioner.",
+    "combinations": "Our Curl Cream can be paired with our Leave-In Conditioner.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -413,7 +419,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
     "additionalSources": [
       "https://based.com/blogs/guide/from-waves-to-fuller-defined-curls"
-    ]
+    ],
+    "suitability": "Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look."
   },
   {
     "id": "leave-in-conditioner",
@@ -444,7 +451,7 @@ window.BASED_CATALOG = [
       "Potassium Sorbate"
     ],
     "warnings": null,
-    "combinations": "May be paired with Curl Cream.",
+    "combinations": "Pair with our Curl Cream for definition; our Curl Mousse can be applied after it for volume.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -475,7 +482,8 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/leave-in-conditioner",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "Especially suited to wavy, curly or coily hair that needs moisture or frizz control."
   },
   {
     "id": "shampoo",
@@ -505,7 +513,7 @@ window.BASED_CATALOG = [
       "Arginine"
     ],
     "warnings": null,
-    "combinations": "Follow with Conditioner.",
+    "combinations": "Follow with our Conditioner.",
     "sourceDate": "2026-11-08",
     "reviewStatus": "Public BASED sources reviewed 2026-11-08; not BASED-approved for customer use",
     "variants": [
@@ -528,7 +536,8 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/shampoo",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair."
   },
   {
     "id": "conditioner",
@@ -626,7 +635,8 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/hair-elixir",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "suitability": "Our Hair Elixir page describes it as suitable for straight, wavy, curly and coily hair, including fine and thick hair."
   },
   {
     "id": "skin-elixir",

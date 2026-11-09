@@ -36,20 +36,28 @@ function quickReplies(choices, callback){
 }
 function startMatch(){
  if(gptBusy)return;if(state.safetyHold){respond('Help me find a match');return;}
- bubble('Find my match','user');bubble('Quick one: what’s your hair type?','assistant');
+ bubble('Find my match','user');bubble('What’s your natural hair type?','assistant');
  quickReplies(['Straight','Wavy','Curly','Coily'],type=>{
   bubble(type+' hair','user');state=engine.applyMessage(state,'I have '+type.toLowerCase()+' hair',catalog).state;save();profile();
-  bubble(type+' hair, got it. What look are you going for?','assistant');
-  quickReplies(type==='Straight'?['Volume','Texture','Hold','Less frizz']:['Volume','Definition','Hold','Less frizz'],goal=>{const desired={Definition:'curl definition',Hold:'strong hold',Texture:'matte texture'}[goal]||goal.toLowerCase();respond('I have '+type.toLowerCase()+' hair and want '+desired+'. Please suggest products.');});
+  bubble('About how long is your hair? You can skip this.','assistant');
+  quickReplies(['0–2 inches','2–4 inches','4–6 inches','6+ inches','Skip'],length=>{
+   bubble(length,'user');state.hairLength=length==='Skip'?null:length;save();profile();
+   bubble('How thick is your hair? You can skip this too.','assistant');
+   quickReplies(['Fine','Medium','Thick','Skip'],thickness=>{
+    bubble(thickness,'user');state.hairThickness=thickness==='Skip'?null:thickness.toLowerCase();save();profile();
+    bubble('What look are you going for?','assistant');
+    quickReplies(type==='Straight'?['Volume','Texture','Hold','Less frizz']:['Volume','Definition','Hold','Less frizz'],goal=>{const desired={Definition:'curl definition',Hold:'strong hold',Texture:'matte texture'}[goal]||goal.toLowerCase();respond('I have '+type.toLowerCase()+' hair and want '+desired+'. Please suggest products.');});
+   });
+  });
  });
 }
 function renderWelcome(){
  const wrap=node('div',undefined,'coach-welcome');wrap.id='coach-welcome';
  wrap.append(node('p','YOUR PERSONAL CARE COACH','welcome-eyebrow'),node('h2','What are we working on today?'),node('p','Tell me your goal, or add products you own and I’ll build around it.','welcome-copy'));
- const match=node('button',undefined,'match-card');match.type='button';match.setAttribute('aria-label','Find my match: choose hair type and goal');const text=node('span',undefined,'match-text');text.append(node('strong','Find my match'),node('small','Two taps: hair type, then goal.'));match.append(text,node('span','→','match-arrow'));match.addEventListener('click',startMatch);wrap.append(match);
+ const match=node('button',undefined,'match-card');match.type='button';match.setAttribute('aria-label','Find my match: choose your hair details and goal');const text=node('span',undefined,'match-text');text.append(node('strong','Find my match'),node('small','Hair type, length, thickness and goal.'));match.append(text,node('span','→','match-arrow'));match.addEventListener('click',startMatch);wrap.append(match);
  const starters=node('div',undefined,'welcome-starters');[['HAIR','Wavy & fluffy','I have wavy hair and want a fluffy look'],['CURLS','Define my curls','I have curly hair and want more definition'],['SKIN','Skin routine','Help me with a skin routine'],['BODY','Body routine','Help me with a body routine']].forEach(([tag,title,prompt])=>{const b=node('button');b.type='button';b.append(node('small',tag),node('span',title));b.addEventListener('click',()=>respond(prompt));starters.append(b)});wrap.append(starters);messages.replaceChildren(wrap);
 }
-function profile(){summary.replaceChildren();const values=[];if(state.category)values.push(state.category);if(state.hairType)values.push(state.hairType+' hair');if(state.hairLength)values.push(state.hairLength+' hair');if(state.goal)values.push(state.goal);if(state.washDays&&state.washDays.length)values.push('Wash: '+state.washDays.join(', '));if(state.ownershipKnown)values.push((state.ownedIds||[]).length+' products owned');if(!values.length)summary.append(node('span','Tell us your goals and what you own to get started.','profile-empty'));else values.forEach(x=>summary.append(node('span',String(x),'profile-chip')))}
+function profile(){summary.replaceChildren();const values=[];if(state.category)values.push(state.category);if(state.hairType)values.push(state.hairType+' hair');if(state.hairLength)values.push(state.hairLength+' hair');if(state.hairThickness)values.push(state.hairThickness+' hair');if(state.goal)values.push(state.goal);if(state.washDays&&state.washDays.length)values.push('Wash: '+state.washDays.join(', '));if(state.ownershipKnown)values.push((state.ownedIds||[]).length+' products owned');if(!values.length)summary.append(node('span','Tell us your goals and what you own to get started.','profile-empty'));else values.forEach(x=>summary.append(node('span',String(x),'profile-chip')))}
 const routineDays=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 function renderRoutine(){
  list.replaceChildren();const total=routine.length+legacy.length;document.querySelector('.chat-panel').classList.toggle('has-routine',total>0);document.querySelector('#routine-count').textContent=state.safetyHold?'Paused':total?total+' '+(total===1?'step':'steps'):'Not built yet';
