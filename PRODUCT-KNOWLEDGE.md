@@ -26,3 +26,5 @@ Sources for hair guidance:
 - https://based.com/pages/routine
 
 Skin and body sources are recorded on each individual catalog entry. A BASED product or education owner should review all guidance and resolve missing directions before use with real customers.
+
+The simulated FAQ bank now includes product purposes for all 21 individual catalog entries, and selected verified information about hold, finish, scent, amounts, bottle life, application, pairing and suitability where available. It does not reproduce every FAQ or imply that all website pages and variants have been verified. Estimates are attributed to the product page, and unsupported questions should be checked against the product label or page.

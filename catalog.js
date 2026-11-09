@@ -49,7 +49,11 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/texturizing-powder",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "Best suited to straight or wavy hair, especially fine or short hair around 0–4 inches."
+    "suitability": "Best suited to straight or wavy hair, especially fine or short hair around 0–4 inches.",
+    "faq": {
+      "purpose": "Adds volume and texture, especially at the roots.",
+      "bottle": "The product page estimates 60–90 days per bottle on average; actual use varies."
+    }
   },
   {
     "id": "sea-salt-spray",
@@ -103,7 +107,12 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/sea-salt-spray",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "For straight or wavy hair and a textured, beachy look."
+    "suitability": "For straight or wavy hair and a textured, beachy look.",
+    "faq": {
+      "purpose": "Creates a beachy, textured look with natural-looking volume.",
+      "hold": "It provides light, buildable hold.",
+      "finish": "A matte finish for beachy texture."
+    }
   },
   {
     "id": "hair-clay",
@@ -154,7 +163,14 @@ window.BASED_CATALOG = [
       "https://www.youtube.com/watch?v=YdNR_VGRt5k",
       "https://based.com/blogs/guide/flat-to-maximum-volume-and-texture"
     ],
-    "suitability": "Best for short-to-medium thick, straight or wavy hair; not ideal for long or very curly hair."
+    "suitability": "Best for short-to-medium thick, straight or wavy hair; not ideal for long or very curly hair.",
+    "faq": {
+      "purpose": "Adds matte texture and strong hold.",
+      "hold": "It offers strong hold with a textured finish.",
+      "finish": "Matte, textured finish.",
+      "scent": "Our Hair Clay has a light Santal scent.",
+      "rinse": "Wash it out with shampoo."
+    }
   },
   {
     "id": "pomade",
@@ -206,7 +222,12 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/pomade",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "For short-to-medium hair and slick backs, flows or side parts."
+    "suitability": "For short-to-medium hair and slick backs, flows or side parts.",
+    "faq": {
+      "purpose": "Creates slick, shiny styles such as slick backs, flows and side parts.",
+      "finish": "A shiny finish for slick or wet looks.",
+      "scent": "Our Pomade has a Santal Sandalwood scent."
+    }
   },
   {
     "id": "curl-mousse",
@@ -254,7 +275,11 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/curl-mousse",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "For wavy, curly and coily hair (2A–4C); especially useful for fine or low-density hair seeking volume."
+    "suitability": "For wavy, curly and coily hair (2A–4C); especially useful for fine or low-density hair seeking volume.",
+    "faq": {
+      "purpose": "Adds volume and definition with flexible hold to wavy, curly or coily hair.",
+      "hold": "Designed for flexible hold and volume."
+    }
   },
   {
     "id": "curl-gel",
@@ -305,7 +330,12 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/curl-gel",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "For curly and coily hair (3A–4C), around 4 inches or longer."
+    "suitability": "For curly and coily hair (3A–4C), around 4 inches or longer.",
+    "faq": {
+      "purpose": "Adds strong hold and definition to curly and coily hair.",
+      "hold": "Designed for strong hold and definition.",
+      "cast": "Let the gel dry completely, then gently scrunch out the cast for softer curls."
+    }
   },
   {
     "id": "curl-refresh-spray",
@@ -353,7 +383,11 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/curl-refresh-spray",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "For wavy, curly and coily hair (2A–4C) at least 2 inches long."
+    "suitability": "For wavy, curly and coily hair (2A–4C) at least 2 inches long.",
+    "faq": {
+      "purpose": "Refreshes curl definition between wash days.",
+      "frequency": "Use on slightly damp day-two or day-three curls, or whenever you need a refresh."
+    }
   },
   {
     "id": "curl-cream",
@@ -420,7 +454,10 @@ window.BASED_CATALOG = [
     "additionalSources": [
       "https://based.com/blogs/guide/from-waves-to-fuller-defined-curls"
     ],
-    "suitability": "Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look."
+    "suitability": "Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look.",
+    "faq": {
+      "purpose": "Adds definition, moisture and control to curls and coils."
+    }
   },
   {
     "id": "leave-in-conditioner",
@@ -483,7 +520,11 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/leave-in-conditioner",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "Especially suited to wavy, curly or coily hair that needs moisture or frizz control."
+    "suitability": "Especially suited to wavy, curly or coily hair that needs moisture or frizz control.",
+    "faq": {
+      "purpose": "Adds moisture and helps control frizz, particularly for wavy, curly and coily hair.",
+      "dryFit": "Designed in particular for dry or frizz-prone wavy, curly and coily hair."
+    }
   },
   {
     "id": "shampoo",
@@ -537,7 +578,10 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/shampoo",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair."
+    "suitability": "Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair.",
+    "faq": {
+      "purpose": "Cleanses hair and scalp. The product page says it is suitable for a range of hair types."
+    }
   },
   {
     "id": "conditioner",
@@ -590,7 +634,10 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/conditioner",
     "ingredientListStatus": "public_page_listed",
-    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety."
+    "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
+    "faq": {
+      "purpose": "A rinse-out conditioner for hydration after shampooing."
+    }
   },
   {
     "id": "hair-elixir",
@@ -636,7 +683,11 @@ window.BASED_CATALOG = [
     "ingredientSource": "https://based.com/products/hair-elixir",
     "ingredientListStatus": "public_page_listed",
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
-    "suitability": "Our Hair Elixir page describes it as suitable for straight, wavy, curly and coily hair, including fine and thick hair."
+    "suitability": "Our Hair Elixir page describes it as suitable for straight, wavy, curly and coily hair, including fine and thick hair.",
+    "faq": {
+      "purpose": "Adds shine and softness and helps smooth flyaways.",
+      "dryFit": "Our Hair Elixir is designed for straight, wavy, curly and coily hair; apply to mid-lengths and ends."
+    }
   },
   {
     "id": "skin-elixir",
@@ -693,7 +744,12 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/skin-elixir?variant=49975203037413",
     "ingredientListStatus": "published full list; label unverified",
-    "ingredientNotes": "Single; variant 49975203037413"
+    "ingredientNotes": "Single; variant 49975203037413",
+    "faq": {
+      "purpose": "Helps skin look brighter, smoother and hydrated.",
+      "amount": "Use one pump for the face.",
+      "bottle": "The product page estimates roughly three months per bottle with daily use."
+    }
   },
   {
     "id": "under-eye-elixir",
@@ -753,7 +809,13 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/under-eye-elixir",
     "ingredientListStatus": "published full list; label unverified",
-    "ingredientNotes": "Default page; exact variant not established Mango botanical spelling reproduced as the page displays it."
+    "ingredientNotes": "Default page; exact variant not established Mango botanical spelling reproduced as the page displays it.",
+    "faq": {
+      "purpose": "Provides under-eye hydration.",
+      "amount": "Use one pump and dab gently under the eyes.",
+      "bottle": "The product page estimates two to three months per bottle with twice-daily use; actual use varies.",
+      "scent": "The page describes a subtle natural botanical aroma with no added synthetic fragrance."
+    }
   },
   {
     "id": "skin-revival-spray",
@@ -793,7 +855,12 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/skin-revival-spray",
     "ingredientListStatus": "partial only: page identifies hypochlorous acid as key ingredient; no full ingredient list found",
-    "ingredientNotes": "Default page; exact variant not established"
+    "ingredientNotes": "Default page; exact variant not established",
+    "faq": {
+      "purpose": "A refreshing face spray.",
+      "frequency": "Use as needed. Close your eyes, spray evenly, and let it dry before other products.",
+      "rinse": "No rinse is needed; allow it to dry before applying serums or moisturizer."
+    }
   },
   {
     "id": "daily-facial-cleanser",
@@ -831,7 +898,10 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/daily-facial-cleanser",
     "ingredientListStatus": "published full list; label unverified",
-    "ingredientNotes": "Default page; exact variant not established FAQ mentions aloe, but the published full list does not; conflict not resolved. Do not claim aloe absence."
+    "ingredientNotes": "Default page; exact variant not established FAQ mentions aloe, but the published full list does not; conflict not resolved. Do not claim aloe absence.",
+    "faq": {
+      "purpose": "A facial cleanser."
+    }
   },
   {
     "id": "daily-facial-moisturizer",
@@ -877,7 +947,10 @@ window.BASED_CATALOG = [
     ],
     "ingredientSource": "https://based.com/products/daily-facial-moisturizer",
     "ingredientListStatus": "published full list; label unverified",
-    "ingredientNotes": "Default page; exact variant not established"
+    "ingredientNotes": "Default page; exact variant not established",
+    "faq": {
+      "purpose": "A lightweight facial moisturizer."
+    }
   },
   {
     "id": "tallow-moisturizer",
@@ -916,7 +989,11 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/tallow-moisturizer",
     "ingredientListStatus": "published full list; label unverified",
-    "ingredientNotes": "Default page; exact variant not established"
+    "ingredientNotes": "Default page; exact variant not established",
+    "faq": {
+      "purpose": "A moisturizer for face and other dry areas.",
+      "where": "The product page lists the face, hands, arms and elbows as possible areas of use."
+    }
   },
   {
     "id": "body-lotion",
@@ -991,7 +1068,12 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/body-lotion",
     "ingredientListStatus": "published full list for displayed fragrance; label unverified",
-    "ingredientNotes": "Page's displayed full list specifies Santal fragrance; other scent variants unverified Page specifies Santal for displayed fragrance; full fragrance components are not listed."
+    "ingredientNotes": "Page's displayed full list specifies Santal fragrance; other scent variants unverified Page specifies Santal for displayed fragrance; full fragrance components are not listed.",
+    "faq": {
+      "purpose": "Moisturizes the body.",
+      "scent": "Our Body Lotion product page lists Alpine, Santal and Amber scents; check available variants.",
+      "bottle": "The product page estimates two to three months per bottle with daily full-body use; actual use varies."
+    }
   },
   {
     "id": "bodywash",
@@ -1065,7 +1147,10 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/bodywash",
     "ingredientListStatus": "published full list with non-specific selected scent; exact variant label unverified",
-    "ingredientNotes": "Page generic formula; selected scent varies Page describes selected scent as naturally derived fragrance, but does not specify its full composition."
+    "ingredientNotes": "Page generic formula; selected scent varies Page describes selected scent as naturally derived fragrance, but does not specify its full composition.",
+    "faq": {
+      "purpose": "Cleanses the body."
+    }
   },
   {
     "id": "deodorant",
@@ -1136,6 +1221,9 @@ window.BASED_CATALOG = [
     "catalogVerified": true,
     "ingredientSource": "https://based.com/products/deodorant",
     "ingredientListStatus": "published full list for displayed fragrance; label unverified",
-    "ingredientNotes": "Page's displayed full list identifies Santal Sandalwood; other scents unverified Page treats Santal Sandalwood as naturally derived fragrance but does not list full fragrance composition."
+    "ingredientNotes": "Page's displayed full list identifies Santal Sandalwood; other scents unverified Page treats Santal Sandalwood as naturally derived fragrance but does not list full fragrance composition.",
+    "faq": {
+      "purpose": "Provides odor protection."
+    }
   }
 ];

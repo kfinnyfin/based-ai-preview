@@ -90,28 +90,45 @@
     return mentions;
   }
   function safeDirection(product){if(!product)return null;const raw=product.directions;return typeof raw==='string'&&raw.trim()?raw.trim():null;}
-  function answerProduct(product,question){
+  function answerProduct(product,question,productCount=1){
+    const faq=product.faq||{};
     const condition=typeof product.condition==='string'?product.condition.trim():'';
     const direction=safeDirection(product);
     const suitability=/\b(?:for\s+dry\s+hair|(?:good|suitable|best|helpful)\s+(?:for|on)\s+dry\s+hair)\b/i.test(question);
     const hairTypeQuestion=/\b(?:what|which)\s+(?:hair\s+)?types?\b|\b(?:who|whom)\s+(?:is|does)\b|\b(?:good|suitable|best|ideal|works?|for)\b[^?]*\b(?:straight|wavy|curly|coily|fine|thick)\s+hair\b/i.test(question);
-    const pairing=/\b(?:together|combine|combination|mix|mixing|layer|pair|with|alongside)\b/i.test(question);
+    const pairing=/\b(?:together|combine|combination|mix|mixing|layer|pair|alongside|with other)\b/i.test(question)||(productCount>1&&/\b(?:with|before|after)\b/i.test(question));
+    const purpose=/\b(?:what (?:does|is|can)|what(?:’s|'s) (?:the|it))\b.*\b(?:do|does|for|purpose|benefits?)\b|\b(?:benefits?|purpose|what is it for)\b/i.test(question);
+    const bottle=/\b(?:how long|lasts?)\b.*\b(?:bottle|container|product|last)\b|\bhow long (?:does|will) (?:it|this) last\b/i.test(question);
+    const scent=/\b(?:scent|scented|smell|fragrance|perfume)\b/i.test(question);
+    const hold=/\b(?:hold|holding)\b/i.test(question);
+    const finish=/\b(?:finish|matte|shiny|shine|glossy)\b/i.test(question)&&!purpose;
+    const cast=/\bcast\b/i.test(question);
+    const where=/\bwhere\b/i.test(question);
+    const amount=/\b(?:how much|how many pumps|amount)\b/i.test(question);
     const wetDry=/\b(?:wet|dry|damp|towel.dried|soaking)\b/i.test(question)&&/\b(?:apply|application|use|put|spray|style|when|before|after|wet|damp|towel.dried|soaking)\b/i.test(question)&&!suitability;
     const frequencyQuestion=unique([product.name,...(ALIASES[product.id]||[])]).sort((a,b)=>b.length-a.length).reduce((q,name)=>q.replace(new RegExp(esc(name),'ig'),''),question);
     const frequency=/\b(?:how often|how frequently|how many times|every day|daily|frequency)\b/i.test(frequencyQuestion);
     const rinsing=/\b(?:rinse|wash)\s+(?:it\s+|this\s+)?(?:out|off)\b|\brins(?:e|ing)\b/i.test(question);
     const use=/\b(?:how|when|where|apply|use|put|application|directions?|wet|damp)\b/i.test(question);
     let body;
-    if(product.id==='hair-clay'&&/\b(?:wash|rinse)\s+(?:it\s+|this\s+)?(?:out|off)\b/i.test(question)){body='Our Hair Clay product page says it washes out with shampoo.';}
-    else if(suitability){body='I don’t have verified guidance on whether this product suits dry hair. '+(product.description||'Check the product label or page.');}
+    if(bottle){body=faq.bottle||'I don’t have a verified estimate for how long this product lasts.';}
+    else if(scent){body=faq.scent||'I don’t have verified scent details for this product or variant. Check the product page.';}
+    else if(cast&&faq.cast){body=faq.cast;}
+    else if(hold&&faq.hold){body=faq.hold;}
+    else if(finish&&faq.finish){body=faq.finish;}
+    else if(purpose&&faq.purpose){body=faq.purpose;}
+    else if(where&&faq.where){body=faq.where;}
+    else if(amount&&faq.amount){body=faq.amount;}
+    else if(product.id==='hair-clay'&&/\b(?:wash|rinse)\s+(?:it\s+|this\s+)?(?:out|off)\b/i.test(question)){body='Our Hair Clay product page says it washes out with shampoo.';}
+    else if(suitability){body=faq.dryFit||'I don’t have verified guidance on whether this product suits dry hair. '+(product.description||'Check the product label or page.');}
     else if(pairing){body=product.combinations||'I don’t have a verified pairing for this product. Check the product page.';}
     else if(hairTypeQuestion){const fit=product.suitability||condition;body=/\b(?:straight|wavy|curly|coily|all hair types)\b/i.test(fit)?fit:'I don’t have verified hair-type guidance for this product. Check the product page.';}
-    else if(rinsing){body=direction&&/\brinse\b/i.test(direction)?direction:'I don’t have verified rinse-out instructions for this product. Check the label or product page.';}
+    else if(rinsing){body=faq.rinse|| (direction&&/\brinse\b/i.test(direction)?direction:'I don’t have verified rinse-out instructions for this product. Check the label or product page.');}
     else if(wetDry){
       const waterCondition=/\b(?:wet|damp|dry)\s+(?:or\s+(?:wet|damp|dry)\s+)?(?:hair|curls|skin|face)\b|\b(?:wet|damp|dry)\s+(?:after|before)\b/i.test(condition)?condition:'';
       const waterDirection=direction&&/\b(?:wet|damp|dry)\s+(?:or\s+(?:wet|damp|dry)\s+)?(?:hair|curls|skin|face)\b|\b(?:wet|damp|dry)\s+(?:after|before)\b/i.test(direction)?direction:'';
       body=waterCondition||waterDirection ? [waterCondition,waterDirection&&waterDirection!==waterCondition?waterDirection:''].filter(Boolean).join('. ') : 'I don’t have verified directions for whether to apply it to wet, damp, or dry hair. '+(direction?direction+' ':'')+'Check the product label or page.';
-    } else if(frequency){body=product.frequency||'I don’t have a verified frequency for this product. Check the label or product page.';}
+    } else if(frequency){body=faq.frequency||product.frequency||'I don’t have a verified frequency for this product. Check the label or product page.';}
     else if(use){body=direction?[direction,condition].filter(Boolean).join(' '):'I don’t have verified application directions for this product. Check the label or product page.'+(condition?' Product details: '+condition+'.':'');}
     else body=product.description||'Check the product page for details.';
     const sources=unique([product.source,...(Array.isArray(product.additionalSources)?product.additionalSources:[])].filter(Boolean));
@@ -150,7 +167,7 @@
     if(symptom&&!symptomNegated){s.lastQuestion=null;return {state:s,localOnly:true,reply:'I can’t predict whether a product will cause a reaction for you. Check the full ingredient list and ask a healthcare professional about your concerns.'};}
     if(/\b(?:treat|treatment|cure|diagnos)\w*/i.test(lower)){s.lastQuestion=null;return {state:s,localOnly:true,reply:'I can’t diagnose or recommend a treatment for a medical condition. Please ask a healthcare professional about your symptoms.'};}
     if(/\b(?:allergen|allerg|pregnan|safe for me)\w*/i.test(lower)){s.lastQuestion=null;return {state:s,localOnly:true,reply:'I can’t determine personal safety. Please check the current full ingredient list on the product label and ask a qualified professional about your individual situation.'};}
-    const ingredientQuestion=(mentions.length>0||s.lastProductIds.length>0&&/\b(?:it|its|them|these|those)\b/i.test(message))&&!mentionedBundles(message).length&&(/\b(?:ingredients?|contain(?:s|ed)?|made\s+(?:with|from)|free\s+(?:of|from))\b/i.test(message)||/\b(?:does|do|is|are)\b[^?]*\b(?:have|has)\b/i.test(message));
+    const ingredientQuestion=(mentions.length>0||s.lastProductIds.length>0&&/\b(?:it|its|them|these|those)\b/i.test(message))&&!mentionedBundles(message).length&&(/\b(?:ingredients?|contain(?:s|ed)?|made\s+(?:with|from)|free\s+(?:of|from))\b/i.test(message)||(/\b(?:does|do|is|are)\b[^?]*\b(?:have|has)\b/i.test(message)&&!/\b(?:hold|finish|scent|smell|fragrance|texture|volume|shine|benefits?|directions?|instructions?)\b/i.test(message)));
     if(ingredientQuestion){
       const ids=unique(mentions.length?mentions.map(m=>m.id):s.lastProductIds).slice(0,3);const products=ids.map(id=>find(catalog,id)).filter(Boolean);
       const explicit=message.match(/\b(?:contain(?:s|ed)?|made\s+(?:with|from)|free\s+(?:of|from))\s+(?:any\s+)?([a-z][a-z\s-]*?)(?:\s+(?:in\s+(?:it|them)|and\s+|or\s+)|[?.!,]|$)/i);
@@ -217,7 +234,7 @@
     if(!routineIntent&&question&&(mentions.length||followIds.length)){
       const ids=unique(mentions.length?mentions.map(m=>m.id):followIds).slice(0,3);
       const products=ids.map(id=>find(catalog,id)).filter(Boolean);
-      if(products.length){s.lastProductIds=products.map(p=>p.id);s.lastProductId=products[products.length-1].id;s.lastQuestion=null;let reply=products.map(p=>p.id==='pomade'&&s.goal==='slicked-back'&&/\b(?:how|apply|use|put|directions?)\b/i.test(message)?'Pomade: Our Pomade is for slick, shiny looks. I don’t have verified application steps for that look yet; check the product label.\n\nSource: '+p.source:answerProduct(p,message)).join('\n\n');
+      if(products.length){s.lastProductIds=products.map(p=>p.id);s.lastProductId=products[products.length-1].id;s.lastQuestion=null;let reply=products.map(p=>p.id==='pomade'&&s.goal==='slicked-back'&&/\b(?:how|apply|use|put|directions?)\b/i.test(message)?'Pomade: Our Pomade is for slick, shiny looks. I don’t have verified application steps for that look yet; check the product label.\n\nSource: '+p.source:answerProduct(p,message,products.length)).join('\n\n');
         const ids=products.map(p=>p.id);if(ids.includes('sea-salt-spray')&&ids.includes('hair-clay')&&/\b(?:together|combine|combined|mix|layer|with|before|after|both)\b/.test(lower))reply='Yes. Our Sea Salt Spray can be used before Hair Clay. For our maximum-volume look, apply Hair Clay to dry hair; use on damp or wet hair has not been verified.\n\nSources: https://based.com/products/sea-salt-spray · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture';
         return {state:s,reply,localOnly:true};}
     }
