@@ -12,7 +12,11 @@ const hairQuestions=[
  ['hair state',n=>`Should I apply ${n} on wet or dry hair?`,/wet|dry|damp|verified|check/i],
  ['pairing',n=>`Can I use ${n} with other products?`,/pair|combin|with|after|before|follow|layer|use|check|verified/i],
  ['ingredients',n=>`What ingredients are in ${n}?`,/ingredient|formula|label|reviewed|lists/i],
- ['scent',n=>`What does ${n} smell like?`,/scent|smell|aroma|fragrance|check|verified/i]
+ ['scent',n=>`What does ${n} smell like?`,/scent|smell|aroma|fragrance|check|verified/i],
+ ['amount',n=>`How much ${n} should I use?`,/./],
+ ['bottle life',n=>`How long does a bottle of ${n} last?`,/last|days|month|verified/i],
+ ['daily use',n=>`Can I use ${n} every day?`,/daily|day|need|frequen|check|verified/i],
+ ['rinsing',n=>`Should I rinse ${n} out?`,/rinse|wash|shampoo|verified|check/i]
 ];
 const otherQuestions=[
  ['purpose',n=>`What does ${n} do?`,/./],
@@ -20,10 +24,16 @@ const otherQuestions=[
  ['frequency',n=>`How often should I use ${n}?`,/daily|day|night|need|frequen|check|verified/i],
  ['ingredients',n=>`What ingredients are in ${n}?`,/ingredient|formula|label|reviewed|lists/i],
  ['scent',n=>`What does ${n} smell like?`,/scent|smell|aroma|fragrance|check|verified/i],
- ['pairing',n=>`Can I use ${n} with other products?`,/pair|combin|with|after|before|follow|layer|use|check|verified/i]
+ ['pairing',n=>`Can I use ${n} with other products?`,/pair|combin|with|after|before|follow|layer|use|check|verified/i],
+ ['amount',n=>`How much ${n} should I use?`,/./],
+ ['bottle life',n=>`How long does a bottle of ${n} last?`,/last|days|month|verified/i],
+ ['daily use',n=>`Can I use ${n} every day?`,/daily|day|night|need|frequen|check|verified/i],
+ ['rinsing',n=>`Should I rinse ${n} off?`,/rinse|wash|verified|check/i],
+ ['application area',n=>`Where should I apply ${n}?`,/apply|face|eyes|body|clean|shower|check|verified|label/i],
+ ['purpose variation',n=>`What are the benefits of ${n}?`,/./]
 ];
 let cases=[];for(const [group,templates] of [[hair,hairQuestions],[other,otherQuestions]])for(const p of group)for(const [intent,question,expected] of templates)cases.push({product:p,intent,question:question(p.name),expected});
-assert.equal(cases.length,150);
+assert.equal(cases.length,252);
 const bank=[];for(const c of cases){const result=BasedEngine.applyMessage(BasedEngine.initialState(),c.question,BASED_CATALOG);assert.ok(result.reply.startsWith(c.product.name+':'),c.question+' → '+result.reply);assert.match(result.reply,c.expected,c.question);assert.doesNotMatch(result.reply,/Tell me your hair type, the look you want/i,c.question);bank.push({question:c.question,answer:result.reply,product:c.product.name,intent:c.intent,source:c.product.source});}
 const varied=[
  ['What should I use to clear my skin?',/Cleanser.*Moisturizer/i],

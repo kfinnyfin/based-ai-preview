@@ -33,3 +33,6 @@ const shortHold=ask({...BasedEngine.initialState(),hairType:'coily',hairLength:'
 assert.match(shortHold.reply,/Curl Gel.*4 inches.*Curl Mousse/i);
 assert.doesNotMatch(shortHold.reply,/Tell me your hair type/i);
 let pairing=ask(BasedEngine.initialState(),'How do I apply curl mousse?');pairing=ask(pairing.state,'Can I use it with curl gel?');assert.match(pairing.reply,/Curl Mousse[\s\S]*roots[\s\S]*Curl Gel/i);
+assert.match(ask(BasedEngine.initialState(),'Can I use conditioner as a co-wash?').reply,/co-wash.*between full washes/i);
+assert.match(ask(BasedEngine.initialState(),'Can I use texture powder after the gym?').reply,/dry.*sweat/i);
+assert.match(ask(BasedEngine.initialState(),'What scents does body wash come in?').reply,/Santal.*Guava.*Coconut/i);

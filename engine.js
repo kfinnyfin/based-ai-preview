@@ -99,7 +99,7 @@
     const pairing=/\b(?:together|combine|combination|mix|mixing|layer|pair|alongside|with other)\b/i.test(question)||(productCount>1&&/\b(?:with|before|after)\b/i.test(question));
     const purpose=/\b(?:what (?:does|is|can)|what(?:’s|'s) (?:the|it))\b.*\b(?:do|does|for|purpose|benefits?)\b|\b(?:benefits?|purpose|what is it for)\b/i.test(question);
     const bottle=/\b(?:how long|lasts?)\b.*\b(?:bottle|container|product|last)\b|\bhow long (?:does|will) (?:it|this) last\b/i.test(question);
-    const scent=/\b(?:scent|scented|smell|fragrance|perfume)\b/i.test(question);
+    const scent=/\b(?:scents?|scented|smells?|fragrances?|perfumes?)\b/i.test(question);
     const hold=/\b(?:hold|holding)\b/i.test(question);
     const finish=/\b(?:finish|matte|shiny|shine|glossy)\b/i.test(question)&&!purpose;
     const cast=/\bcast\b/i.test(question);
@@ -111,14 +111,16 @@
     const rinsing=/\b(?:rinse|wash)\s+(?:it\s+|this\s+)?(?:out|off)\b|\brins(?:e|ing)\b/i.test(question);
     const use=/\b(?:how|when|where|apply|use|put|application|directions?|wet|damp)\b/i.test(question);
     let body;
-    if(bottle){body=faq.bottle||'I don’t have a verified estimate for how long this product lasts.';}
+    if(product.id==='conditioner'&&/\b(?:co[ -]?wash|cowash)\b/i.test(question)){body='Our Conditioner page says it can be used as a co-wash between full washes when your hair needs moisture. Check the label for current directions.';}
+    else if(product.id==='texturizing-powder'&&/\b(?:gym|workout|sweat|sweaty)\b/i.test(question)){body='For a post-workout touch-up, wait until your hair is dry from sweat, then use a few sprays and scrunch into the roots.';}
+    else if(bottle){body=faq.bottle||'I don’t have a verified estimate for how long this product lasts.';}
     else if(scent){body=faq.scent||'I don’t have verified scent details for this product or variant. Check the product page.';}
     else if(cast&&faq.cast){body=faq.cast;}
     else if(hold&&faq.hold){body=faq.hold;}
     else if(finish&&faq.finish){body=faq.finish;}
     else if(purpose&&faq.purpose){body=faq.purpose;}
     else if(where&&faq.where){body=faq.where;}
-    else if(amount&&faq.amount){body=faq.amount;}
+    else if(amount){body=faq.amount||(direction&&/\b(?:pump|sprays?|pea.?sized|quarter.?siz|dime.?siz|small amount|one pump|generous)\b/i.test(direction)?direction:'I don’t have a verified amount for this product. Check the product label or page.'+(direction?' '+direction:''));}
     else if(product.id==='hair-clay'&&/\b(?:wash|rinse)\s+(?:it\s+|this\s+)?(?:out|off)\b/i.test(question)){body='Our Hair Clay product page says it washes out with shampoo.';}
     else if(suitability){body=faq.dryFit||'I don’t have verified guidance on whether this product suits dry hair. '+(product.description||'Check the product label or page.');}
     else if(pairing){body=product.combinations||'I don’t have a verified pairing for this product. Check the product page.';}
@@ -128,7 +130,7 @@
       const waterCondition=/\b(?:wet|damp|dry)\s+(?:or\s+(?:wet|damp|dry)\s+)?(?:hair|curls|skin|face)\b|\b(?:wet|damp|dry)\s+(?:after|before)\b/i.test(condition)?condition:'';
       const waterDirection=direction&&/\b(?:wet|damp|dry)\s+(?:or\s+(?:wet|damp|dry)\s+)?(?:hair|curls|skin|face)\b|\b(?:wet|damp|dry)\s+(?:after|before)\b/i.test(direction)?direction:'';
       body=waterCondition||waterDirection ? [waterCondition,waterDirection&&waterDirection!==waterCondition?waterDirection:''].filter(Boolean).join('. ') : 'I don’t have verified directions for whether to apply it to wet, damp, or dry hair. '+(direction?direction+' ':'')+'Check the product label or page.';
-    } else if(frequency){body=faq.frequency||product.frequency||'I don’t have a verified frequency for this product. Check the label or product page.';}
+    } else if(frequency){const timing=faq.frequency||product.frequency;body=/\b(?:every day|daily)\b/i.test(frequencyQuestion)&&timing&&/^(?:as desired|as needed)$/i.test(timing)?'Use as needed. I don’t have verified guidance on daily use; check the product page.':timing||'I don’t have a verified frequency for this product. Check the label or product page.';}
     else if(use){body=direction?[direction,condition].filter(Boolean).join(' '):'I don’t have verified application directions for this product. Check the label or product page.'+(condition?' Product details: '+condition+'.':'');}
     else body=product.description||'Check the product page for details.';
     const sources=unique([product.source,...(Array.isArray(product.additionalSources)?product.additionalSources:[])].filter(Boolean));

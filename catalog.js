@@ -463,7 +463,8 @@ window.BASED_CATALOG = [
     ],
     "suitability": "Made for curly and coily hair needing definition, moisture and control. Our styling guide also uses it for a waves-to-defined-curls look.",
     "faq": {
-      "purpose": "Adds definition, moisture and control to curls and coils."
+      "purpose": "Adds definition, moisture and control to curls and coils.",
+      "scent": "Our Curl Cream product page describes a light Santal Sandalwood scent."
     },
     "reviewedAt": "2026-11-08"
   },
@@ -589,7 +590,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Names transcribed from public product-page list; not verified against package, batch, or current formula. No inference about allergens or personal safety.",
     "suitability": "Our Shampoo page describes it as suitable for straight, wavy, curly, coily, fine and thick hair.",
     "faq": {
-      "purpose": "Cleanses hair and scalp. The product page says it is suitable for a range of hair types."
+      "purpose": "Cleanses hair and scalp. The product page says it is suitable for a range of hair types.",
+      "scent": "Our Shampoo page describes a peppermint scent from essential oils."
     },
     "reviewedAt": "2026-11-08"
   },
@@ -698,7 +700,8 @@ window.BASED_CATALOG = [
     "suitability": "Our Hair Elixir page describes it as suitable for straight, wavy, curly and coily hair, including fine and thick hair.",
     "faq": {
       "purpose": "Adds shine and softness and helps smooth flyaways.",
-      "dryFit": "Our Hair Elixir is designed for straight, wavy, curly and coily hair; apply to mid-lengths and ends."
+      "dryFit": "Our Hair Elixir is designed for straight, wavy, curly and coily hair; apply to mid-lengths and ends.",
+      "bottle": "Our Hair Elixir page estimates four to six months per bottle, depending on usage."
     },
     "reviewedAt": "2026-11-08"
   },
@@ -1011,7 +1014,8 @@ window.BASED_CATALOG = [
     "ingredientNotes": "Default page; exact variant not established",
     "faq": {
       "purpose": "A moisturizer for face and other dry areas.",
-      "where": "The product page lists the face, hands, arms and elbows as possible areas of use."
+      "where": "The product page lists the face, hands, arms and elbows as possible areas of use.",
+      "scent": "Our Tallow Moisturizer page describes it as unscented."
     },
     "reviewedAt": "2026-11-08"
   },
@@ -1170,7 +1174,8 @@ window.BASED_CATALOG = [
     "ingredientListStatus": "published full list with non-specific selected scent; exact variant label unverified",
     "ingredientNotes": "Page generic formula; selected scent varies Page describes selected scent as naturally derived fragrance, but does not specify its full composition.",
     "faq": {
-      "purpose": "Cleanses the body."
+      "purpose": "Cleanses the body.",
+      "scent": "Our Body Wash page lists Santal Sandalwood, Guava Nectar and Caribbean Coconut. Check the current variant selection."
     },
     "reviewedAt": "2026-11-08"
   },
@@ -1245,7 +1250,8 @@ window.BASED_CATALOG = [
     "ingredientListStatus": "published full list for displayed fragrance; label unverified",
     "ingredientNotes": "Page's displayed full list identifies Santal Sandalwood; other scents unverified Page treats Santal Sandalwood as naturally derived fragrance but does not list full fragrance composition.",
     "faq": {
-      "purpose": "Provides odor protection."
+      "purpose": "Provides odor protection.",
+      "scent": "Our Deodorant page lists Santal Sandalwood, Guava Nectar and Bergamot & Vanilla. Check the current variant selection."
     },
     "reviewedAt": "2026-11-08"
   }

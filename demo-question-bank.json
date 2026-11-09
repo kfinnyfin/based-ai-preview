@@ -56,6 +56,34 @@
     "source": "https://based.com/products/texturizing-powder"
   },
   {
+    "question": "How much Texture Powder should I use?",
+    "answer": "Texture Powder: Spray 2–4 times, scrunch into roots, then style. Adjust the amount for your hair.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "amount",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "How long does a bottle of Texture Powder last?",
+    "answer": "Texture Powder: The product page estimates 60–90 days per bottle on average; actual use varies.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "bottle life",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "Can I use Texture Powder every day?",
+    "answer": "Texture Powder: Use as needed. I don’t have verified guidance on daily use; check the product page.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "daily use",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
+    "question": "Should I rinse Texture Powder out?",
+    "answer": "Texture Powder: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/texturizing-powder",
+    "product": "Texture Powder",
+    "intent": "rinsing",
+    "source": "https://based.com/products/texturizing-powder"
+  },
+  {
     "question": "What does Sea Salt Spray do?",
     "answer": "Sea Salt Spray: Creates a beachy, textured look with natural-looking volume.\n\nSources: https://based.com/products/sea-salt-spray",
     "product": "Sea Salt Spray",
@@ -109,6 +137,34 @@
     "answer": "Sea Salt Spray: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/sea-salt-spray",
     "product": "Sea Salt Spray",
     "intent": "scent",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "How much Sea Salt Spray should I use?",
+    "answer": "Sea Salt Spray: Spray through hair and scrunch, air-dry or blow-dry.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "amount",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "How long does a bottle of Sea Salt Spray last?",
+    "answer": "Sea Salt Spray: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "bottle life",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "Can I use Sea Salt Spray every day?",
+    "answer": "Sea Salt Spray: Daily use is an option, according to our product page.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "daily use",
+    "source": "https://based.com/products/sea-salt-spray"
+  },
+  {
+    "question": "Should I rinse Sea Salt Spray out?",
+    "answer": "Sea Salt Spray: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/sea-salt-spray",
+    "product": "Sea Salt Spray",
+    "intent": "rinsing",
     "source": "https://based.com/products/sea-salt-spray"
   },
   {
@@ -168,6 +224,34 @@
     "source": "https://based.com/products/hair-clay"
   },
   {
+    "question": "How much Hair Clay should I use?",
+    "answer": "Hair Clay: For our maximum-volume look, warm a small amount between your palms, work it through your hair and lift from the roots. Our application tutorial suggests starting with a pea-sized amount and adding more if needed.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "amount",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "How long does a bottle of Hair Clay last?",
+    "answer": "Hair Clay: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "bottle life",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "Can I use Hair Clay every day?",
+    "answer": "Hair Clay: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "daily use",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
+    "question": "Should I rinse Hair Clay out?",
+    "answer": "Hair Clay: Wash it out with shampoo.\n\nSources: https://based.com/products/hair-clay · https://www.youtube.com/watch?v=YdNR_VGRt5k · https://based.com/blogs/guide/flat-to-maximum-volume-and-texture",
+    "product": "Hair Clay",
+    "intent": "rinsing",
+    "source": "https://based.com/products/hair-clay"
+  },
+  {
     "question": "What does Pomade do?",
     "answer": "Pomade: Creates slick, shiny styles such as slick backs, flows and side parts.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
     "product": "Pomade",
@@ -221,6 +305,34 @@
     "answer": "Pomade: Our Pomade has a Santal Sandalwood scent.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
     "product": "Pomade",
     "intent": "scent",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "How much Pomade should I use?",
+    "answer": "Pomade: I don’t have a verified amount for this product. Check the product label or page. For a textured wavy look, warm a dime-size amount in your palms and scrunch through the tips, away from roots.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "amount",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "How long does a bottle of Pomade last?",
+    "answer": "Pomade: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "bottle life",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "Can I use Pomade every day?",
+    "answer": "Pomade: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "daily use",
+    "source": "https://based.com/products/pomade"
+  },
+  {
+    "question": "Should I rinse Pomade out?",
+    "answer": "Pomade: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/pomade · https://based.com/blogs/guide/textured-messy-look",
+    "product": "Pomade",
+    "intent": "rinsing",
     "source": "https://based.com/products/pomade"
   },
   {
@@ -280,6 +392,34 @@
     "source": "https://based.com/products/curl-mousse"
   },
   {
+    "question": "How much Curl Mousse should I use?",
+    "answer": "Curl Mousse: I don’t have a verified amount for this product. Check the product label or page. Apply 2–3 or more pumps as needed for length to damp hair; rub between hands, scrunch through mid-lengths and ends, then air-dry or diffuse. For volume, apply at the roots.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "amount",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "How long does a bottle of Curl Mousse last?",
+    "answer": "Curl Mousse: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "bottle life",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "Can I use Curl Mousse every day?",
+    "answer": "Curl Mousse: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "daily use",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
+    "question": "Should I rinse Curl Mousse out?",
+    "answer": "Curl Mousse: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-mousse",
+    "product": "Curl Mousse",
+    "intent": "rinsing",
+    "source": "https://based.com/products/curl-mousse"
+  },
+  {
     "question": "What does Curl Gel do?",
     "answer": "Curl Gel: Adds strong hold and definition to curly and coily hair.\n\nSources: https://based.com/products/curl-gel",
     "product": "Curl Gel",
@@ -333,6 +473,34 @@
     "answer": "Curl Gel: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-gel",
     "product": "Curl Gel",
     "intent": "scent",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "How much Curl Gel should I use?",
+    "answer": "Curl Gel: I don’t have a verified amount for this product. Check the product label or page. Apply to freshly wet or damp hair in sections. The product page suggests a quarter-sized amount for medium-length hair; rake through, scrunch upward, air-dry or diffuse completely, then scrunch out the cast.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "amount",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "How long does a bottle of Curl Gel last?",
+    "answer": "Curl Gel: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "bottle life",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "Can I use Curl Gel every day?",
+    "answer": "Curl Gel: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "daily use",
+    "source": "https://based.com/products/curl-gel"
+  },
+  {
+    "question": "Should I rinse Curl Gel out?",
+    "answer": "Curl Gel: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-gel",
+    "product": "Curl Gel",
+    "intent": "rinsing",
     "source": "https://based.com/products/curl-gel"
   },
   {
@@ -392,6 +560,34 @@
     "source": "https://based.com/products/curl-refresh-spray"
   },
   {
+    "question": "How much Curl Refresh Spray should I use?",
+    "answer": "Curl Refresh Spray: Spray onto slightly damp curls and scrunch; air-dry or diffuse.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "amount",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "How long does a bottle of Curl Refresh Spray last?",
+    "answer": "Curl Refresh Spray: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "bottle life",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "Can I use Curl Refresh Spray every day?",
+    "answer": "Curl Refresh Spray: Use on slightly damp day-two or day-three curls, or whenever you need a refresh.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "daily use",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
+    "question": "Should I rinse Curl Refresh Spray out?",
+    "answer": "Curl Refresh Spray: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-refresh-spray",
+    "product": "Curl Refresh Spray",
+    "intent": "rinsing",
+    "source": "https://based.com/products/curl-refresh-spray"
+  },
+  {
     "question": "What does Curl Cream do?",
     "answer": "Curl Cream: Adds definition, moisture and control to curls and coils.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
     "product": "Curl Cream",
@@ -442,9 +638,37 @@
   },
   {
     "question": "What does Curl Cream smell like?",
-    "answer": "Curl Cream: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "answer": "Curl Cream: Our Curl Cream product page describes a light Santal Sandalwood scent.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
     "product": "Curl Cream",
     "intent": "scent",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "How much Curl Cream should I use?",
+    "answer": "Curl Cream: I don’t have a verified amount for this product. Check the product label or page. In our waves-to-defined-curls guide, rub a quarter-size amount between your palms and scrunch it through the tips.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "amount",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "How long does a bottle of Curl Cream last?",
+    "answer": "Curl Cream: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "bottle life",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "Can I use Curl Cream every day?",
+    "answer": "Curl Cream: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "daily use",
+    "source": "https://based.com/products/curl-cream"
+  },
+  {
+    "question": "Should I rinse Curl Cream out?",
+    "answer": "Curl Cream: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/curl-cream · https://based.com/blogs/guide/from-waves-to-fuller-defined-curls",
+    "product": "Curl Cream",
+    "intent": "rinsing",
     "source": "https://based.com/products/curl-cream"
   },
   {
@@ -504,6 +728,34 @@
     "source": "https://based.com/products/leave-in-conditioner"
   },
   {
+    "question": "How much Leave-In Conditioner should I use?",
+    "answer": "Leave-In Conditioner: I don’t have a verified amount for this product. Check the product label or page. Apply to damp hair through the mid-lengths and ends. Our fall routine guide suggests 2–4 pumps depending on your hair’s needs.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "amount",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "How long does a bottle of Leave-In Conditioner last?",
+    "answer": "Leave-In Conditioner: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "bottle life",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "Can I use Leave-In Conditioner every day?",
+    "answer": "Leave-In Conditioner: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "daily use",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
+    "question": "Should I rinse Leave-In Conditioner out?",
+    "answer": "Leave-In Conditioner: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/leave-in-conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Leave-In Conditioner",
+    "intent": "rinsing",
+    "source": "https://based.com/products/leave-in-conditioner"
+  },
+  {
     "question": "What does Shampoo do?",
     "answer": "Shampoo: Cleanses hair and scalp. The product page says it is suitable for a range of hair types.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
     "product": "Shampoo",
@@ -554,9 +806,37 @@
   },
   {
     "question": "What does Shampoo smell like?",
-    "answer": "Shampoo: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "answer": "Shampoo: Our Shampoo page describes a peppermint scent from essential oils.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
     "product": "Shampoo",
     "intent": "scent",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "How much Shampoo should I use?",
+    "answer": "Shampoo: I don’t have a verified amount for this product. Check the product label or page. Focus shampoo on the scalp. Choose wash frequency based on your scalp oil and buildup, then follow with conditioner.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "amount",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "How long does a bottle of Shampoo last?",
+    "answer": "Shampoo: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "bottle life",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "Can I use Shampoo every day?",
+    "answer": "Shampoo: Product page says suitable for daily use; frequency depends on the customer.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "daily use",
+    "source": "https://based.com/products/shampoo"
+  },
+  {
+    "question": "Should I rinse Shampoo out?",
+    "answer": "Shampoo: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/shampoo · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Shampoo",
+    "intent": "rinsing",
     "source": "https://based.com/products/shampoo"
   },
   {
@@ -616,6 +896,34 @@
     "source": "https://based.com/products/conditioner"
   },
   {
+    "question": "How much Conditioner should I use?",
+    "answer": "Conditioner: I don’t have a verified amount for this product. Check the product label or page. After shampooing, apply conditioner and rinse. For drier hair, the guide suggests leaving it in for 2–3 minutes before rinsing.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "amount",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "How long does a bottle of Conditioner last?",
+    "answer": "Conditioner: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "bottle life",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "Can I use Conditioner every day?",
+    "answer": "Conditioner: Our product page says daily use is an option; choose a frequency that works for your hair.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "daily use",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
+    "question": "Should I rinse Conditioner out?",
+    "answer": "Conditioner: After shampooing, apply conditioner and rinse. For drier hair, the guide suggests leaving it in for 2–3 minutes before rinsing.\n\nSources: https://based.com/products/conditioner · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Conditioner",
+    "intent": "rinsing",
+    "source": "https://based.com/products/conditioner"
+  },
+  {
     "question": "What does Hair Elixir do?",
     "answer": "Hair Elixir: Adds shine and softness and helps smooth flyaways.\n\nSources: https://based.com/products/hair-elixir",
     "product": "Hair Elixir",
@@ -672,6 +980,34 @@
     "source": "https://based.com/products/hair-elixir"
   },
   {
+    "question": "How much Hair Elixir should I use?",
+    "answer": "Hair Elixir: Distribute one pump between palms and apply to mid-lengths and ends, avoiding roots.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "amount",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "How long does a bottle of Hair Elixir last?",
+    "answer": "Hair Elixir: Our Hair Elixir page estimates four to six months per bottle, depending on usage.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "bottle life",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "Can I use Hair Elixir every day?",
+    "answer": "Hair Elixir: Use as needed. I don’t have verified guidance on daily use; check the product page.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "daily use",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
+    "question": "Should I rinse Hair Elixir out?",
+    "answer": "Hair Elixir: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/hair-elixir",
+    "product": "Hair Elixir",
+    "intent": "rinsing",
+    "source": "https://based.com/products/hair-elixir"
+  },
+  {
     "question": "What does Multi-Active Skin Elixir do?",
     "answer": "Multi-Active Skin Elixir: Helps skin look brighter, smoother and hydrated.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
     "product": "Multi-Active Skin Elixir",
@@ -711,6 +1047,48 @@
     "answer": "Multi-Active Skin Elixir: Do not layer directly with Skin Revival Spray; use at separate times or let spray dry completely.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
     "product": "Multi-Active Skin Elixir",
     "intent": "pairing",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "How much Multi-Active Skin Elixir should I use?",
+    "answer": "Multi-Active Skin Elixir: Use one pump for the face.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "amount",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "How long does a bottle of Multi-Active Skin Elixir last?",
+    "answer": "Multi-Active Skin Elixir: The product page estimates roughly three months per bottle with daily use.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "bottle life",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "Can I use Multi-Active Skin Elixir every day?",
+    "answer": "Multi-Active Skin Elixir: Once daily\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "daily use",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "Should I rinse Multi-Active Skin Elixir off?",
+    "answer": "Multi-Active Skin Elixir: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "rinsing",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "Where should I apply Multi-Active Skin Elixir?",
+    "answer": "Multi-Active Skin Elixir: Apply one pump after cleansing and before moisturizer; in the morning follow with SPF. If using Skin Revival Spray, let the spray dry completely first or use the products at separate times. After cleansing; before moisturizer\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "application area",
+    "source": "https://based.com/products/skin-elixir?variant=49975203037413"
+  },
+  {
+    "question": "What are the benefits of Multi-Active Skin Elixir?",
+    "answer": "Multi-Active Skin Elixir: Helps skin look brighter, smoother and hydrated.\n\nSources: https://based.com/products/skin-elixir?variant=49975203037413",
+    "product": "Multi-Active Skin Elixir",
+    "intent": "purpose variation",
     "source": "https://based.com/products/skin-elixir?variant=49975203037413"
   },
   {
@@ -756,6 +1134,48 @@
     "source": "https://based.com/products/under-eye-elixir"
   },
   {
+    "question": "How much Under Eye Elixir should I use?",
+    "answer": "Under Eye Elixir: Use one pump and dab gently under the eyes.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "amount",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "How long does a bottle of Under Eye Elixir last?",
+    "answer": "Under Eye Elixir: The product page estimates two to three months per bottle with twice-daily use; actual use varies.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "bottle life",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "Can I use Under Eye Elixir every day?",
+    "answer": "Under Eye Elixir: Morning and night per product page\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "daily use",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "Should I rinse Under Eye Elixir off?",
+    "answer": "Under Eye Elixir: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "rinsing",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "Where should I apply Under Eye Elixir?",
+    "answer": "Under Eye Elixir: Dab one pump gently under eyes; apply after cleansing and before heavier products.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "application area",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
+    "question": "What are the benefits of Under Eye Elixir?",
+    "answer": "Under Eye Elixir: Provides under-eye hydration.\n\nSources: https://based.com/products/under-eye-elixir",
+    "product": "Under Eye Elixir",
+    "intent": "purpose variation",
+    "source": "https://based.com/products/under-eye-elixir"
+  },
+  {
     "question": "What does Skin Revival Spray do?",
     "answer": "Skin Revival Spray: A refreshing face spray.\n\nSources: https://based.com/products/skin-revival-spray",
     "product": "Skin Revival Spray",
@@ -795,6 +1215,48 @@
     "answer": "Skin Revival Spray: Do not layer directly with Skin Elixir; use at separate times or allow the spray to dry completely.\n\nSources: https://based.com/products/skin-revival-spray",
     "product": "Skin Revival Spray",
     "intent": "pairing",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "How much Skin Revival Spray should I use?",
+    "answer": "Skin Revival Spray: Close eyes and spray evenly; do not rinse. Let dry before serums or moisturizer.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "amount",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "How long does a bottle of Skin Revival Spray last?",
+    "answer": "Skin Revival Spray: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "bottle life",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "Can I use Skin Revival Spray every day?",
+    "answer": "Skin Revival Spray: Use as needed. Close your eyes, spray evenly, and let it dry before other products.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "daily use",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "Should I rinse Skin Revival Spray off?",
+    "answer": "Skin Revival Spray: No rinse is needed; allow it to dry before applying serums or moisturizer.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "rinsing",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "Where should I apply Skin Revival Spray?",
+    "answer": "Skin Revival Spray: Close eyes and spray evenly; do not rinse. Let dry before serums or moisturizer.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "application area",
+    "source": "https://based.com/products/skin-revival-spray"
+  },
+  {
+    "question": "What are the benefits of Skin Revival Spray?",
+    "answer": "Skin Revival Spray: A refreshing face spray.\n\nSources: https://based.com/products/skin-revival-spray",
+    "product": "Skin Revival Spray",
+    "intent": "purpose variation",
     "source": "https://based.com/products/skin-revival-spray"
   },
   {
@@ -840,6 +1302,48 @@
     "source": "https://based.com/products/daily-facial-cleanser"
   },
   {
+    "question": "How much Daily Facial Cleanser should I use?",
+    "answer": "Daily Facial Cleanser: I don’t have a verified amount for this product. Check the product label or page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "amount",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "How long does a bottle of Daily Facial Cleanser last?",
+    "answer": "Daily Facial Cleanser: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "bottle life",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "Can I use Daily Facial Cleanser every day?",
+    "answer": "Daily Facial Cleanser: Daily use is an option according to the product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "daily use",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "Should I rinse Daily Facial Cleanser off?",
+    "answer": "Daily Facial Cleanser: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "rinsing",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "Where should I apply Daily Facial Cleanser?",
+    "answer": "Daily Facial Cleanser: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "application area",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
+    "question": "What are the benefits of Daily Facial Cleanser?",
+    "answer": "Daily Facial Cleanser: A facial cleanser.\n\nSources: https://based.com/products/daily-facial-cleanser",
+    "product": "Daily Facial Cleanser",
+    "intent": "purpose variation",
+    "source": "https://based.com/products/daily-facial-cleanser"
+  },
+  {
     "question": "What does Daily Facial Moisturizer do?",
     "answer": "Daily Facial Moisturizer: A lightweight facial moisturizer.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
     "product": "Daily Facial Moisturizer",
@@ -882,6 +1386,48 @@
     "source": "https://based.com/products/daily-facial-moisturizer"
   },
   {
+    "question": "How much Daily Facial Moisturizer should I use?",
+    "answer": "Daily Facial Moisturizer: I don’t have a verified amount for this product. Check the product label or page. Our general routine guide suggests applying moisturizer to slightly damp skin.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "amount",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "How long does a bottle of Daily Facial Moisturizer last?",
+    "answer": "Daily Facial Moisturizer: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "bottle life",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "Can I use Daily Facial Moisturizer every day?",
+    "answer": "Daily Facial Moisturizer: Morning and night per product page\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "daily use",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "Should I rinse Daily Facial Moisturizer off?",
+    "answer": "Daily Facial Moisturizer: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "rinsing",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "Where should I apply Daily Facial Moisturizer?",
+    "answer": "Daily Facial Moisturizer: Our general routine guide suggests applying moisturizer to slightly damp skin. Slightly damp skin, according to our general routine guide\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "application area",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
+    "question": "What are the benefits of Daily Facial Moisturizer?",
+    "answer": "Daily Facial Moisturizer: A lightweight facial moisturizer.\n\nSources: https://based.com/products/daily-facial-moisturizer · https://based.com/blogs/guide/your-fall-routine-upgrade",
+    "product": "Daily Facial Moisturizer",
+    "intent": "purpose variation",
+    "source": "https://based.com/products/daily-facial-moisturizer"
+  },
+  {
     "question": "What does Tallow Moisturizer do?",
     "answer": "Tallow Moisturizer: A moisturizer for face and other dry areas.\n\nSources: https://based.com/products/tallow-moisturizer",
     "product": "Tallow Moisturizer",
@@ -911,7 +1457,7 @@
   },
   {
     "question": "What does Tallow Moisturizer smell like?",
-    "answer": "Tallow Moisturizer: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "answer": "Tallow Moisturizer: Our Tallow Moisturizer page describes it as unscented.\n\nSources: https://based.com/products/tallow-moisturizer",
     "product": "Tallow Moisturizer",
     "intent": "scent",
     "source": "https://based.com/products/tallow-moisturizer"
@@ -921,6 +1467,48 @@
     "answer": "Tallow Moisturizer: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/tallow-moisturizer",
     "product": "Tallow Moisturizer",
     "intent": "pairing",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "How much Tallow Moisturizer should I use?",
+    "answer": "Tallow Moisturizer: I don’t have a verified amount for this product. Check the product label or page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "amount",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "How long does a bottle of Tallow Moisturizer last?",
+    "answer": "Tallow Moisturizer: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "bottle life",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "Can I use Tallow Moisturizer every day?",
+    "answer": "Tallow Moisturizer: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "daily use",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "Should I rinse Tallow Moisturizer off?",
+    "answer": "Tallow Moisturizer: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "rinsing",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "Where should I apply Tallow Moisturizer?",
+    "answer": "Tallow Moisturizer: The product page lists the face, hands, arms and elbows as possible areas of use.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "application area",
+    "source": "https://based.com/products/tallow-moisturizer"
+  },
+  {
+    "question": "What are the benefits of Tallow Moisturizer?",
+    "answer": "Tallow Moisturizer: A moisturizer for face and other dry areas.\n\nSources: https://based.com/products/tallow-moisturizer",
+    "product": "Tallow Moisturizer",
+    "intent": "purpose variation",
     "source": "https://based.com/products/tallow-moisturizer"
   },
   {
@@ -966,6 +1554,48 @@
     "source": "https://based.com/products/body-lotion"
   },
   {
+    "question": "How much Body Lotion should I use?",
+    "answer": "Body Lotion: I don’t have a verified amount for this product. Check the product label or page. After showering, massage into the body until absorbed, focusing on dry areas.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "amount",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "How long does a bottle of Body Lotion last?",
+    "answer": "Body Lotion: The product page estimates two to three months per bottle with daily full-body use; actual use varies.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "bottle life",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "Can I use Body Lotion every day?",
+    "answer": "Body Lotion: Daily or reapply as needed\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "daily use",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "Should I rinse Body Lotion off?",
+    "answer": "Body Lotion: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "rinsing",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "Where should I apply Body Lotion?",
+    "answer": "Body Lotion: After showering, massage into the body until absorbed, focusing on dry areas.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "application area",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
+    "question": "What are the benefits of Body Lotion?",
+    "answer": "Body Lotion: Moisturizes the body.\n\nSources: https://based.com/products/body-lotion",
+    "product": "Body Lotion",
+    "intent": "purpose variation",
+    "source": "https://based.com/products/body-lotion"
+  },
+  {
     "question": "What does Body Wash do?",
     "answer": "Body Wash: Cleanses the body.\n\nSources: https://based.com/products/bodywash",
     "product": "Body Wash",
@@ -995,7 +1625,7 @@
   },
   {
     "question": "What does Body Wash smell like?",
-    "answer": "Body Wash: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/bodywash",
+    "answer": "Body Wash: Our Body Wash page lists Santal Sandalwood, Guava Nectar and Caribbean Coconut. Check the current variant selection.\n\nSources: https://based.com/products/bodywash",
     "product": "Body Wash",
     "intent": "scent",
     "source": "https://based.com/products/bodywash"
@@ -1005,6 +1635,48 @@
     "answer": "Body Wash: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/bodywash",
     "product": "Body Wash",
     "intent": "pairing",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "How much Body Wash should I use?",
+    "answer": "Body Wash: I don’t have a verified amount for this product. Check the product label or page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "amount",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "How long does a bottle of Body Wash last?",
+    "answer": "Body Wash: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "bottle life",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "Can I use Body Wash every day?",
+    "answer": "Body Wash: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "daily use",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "Should I rinse Body Wash off?",
+    "answer": "Body Wash: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "rinsing",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "Where should I apply Body Wash?",
+    "answer": "Body Wash: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "application area",
+    "source": "https://based.com/products/bodywash"
+  },
+  {
+    "question": "What are the benefits of Body Wash?",
+    "answer": "Body Wash: Cleanses the body.\n\nSources: https://based.com/products/bodywash",
+    "product": "Body Wash",
+    "intent": "purpose variation",
     "source": "https://based.com/products/bodywash"
   },
   {
@@ -1037,7 +1709,7 @@
   },
   {
     "question": "What does Deodorant smell like?",
-    "answer": "Deodorant: I don’t have verified scent details for this product or variant. Check the product page.\n\nSources: https://based.com/products/deodorant",
+    "answer": "Deodorant: Our Deodorant page lists Santal Sandalwood, Guava Nectar and Bergamot & Vanilla. Check the current variant selection.\n\nSources: https://based.com/products/deodorant",
     "product": "Deodorant",
     "intent": "scent",
     "source": "https://based.com/products/deodorant"
@@ -1047,6 +1719,48 @@
     "answer": "Deodorant: I don’t have a verified pairing for this product. Check the product page.\n\nSources: https://based.com/products/deodorant",
     "product": "Deodorant",
     "intent": "pairing",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "How much Deodorant should I use?",
+    "answer": "Deodorant: I don’t have a verified amount for this product. Check the product label or page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "amount",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "How long does a bottle of Deodorant last?",
+    "answer": "Deodorant: I don’t have a verified estimate for how long this product lasts.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "bottle life",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "Can I use Deodorant every day?",
+    "answer": "Deodorant: I don’t have a verified frequency for this product. Check the label or product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "daily use",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "Should I rinse Deodorant off?",
+    "answer": "Deodorant: I don’t have verified rinse-out instructions for this product. Check the label or product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "rinsing",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "Where should I apply Deodorant?",
+    "answer": "Deodorant: I don’t have verified application directions for this product. Check the label or product page.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "application area",
+    "source": "https://based.com/products/deodorant"
+  },
+  {
+    "question": "What are the benefits of Deodorant?",
+    "answer": "Deodorant: Provides odor protection.\n\nSources: https://based.com/products/deodorant",
+    "product": "Deodorant",
+    "intent": "purpose variation",
     "source": "https://based.com/products/deodorant"
   },
   {
