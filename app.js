@@ -2,7 +2,7 @@
 const catalog=window.BASED_CATALOG||[];
 const engine=window.BasedEngine;
 const stateKey='based-ai-private-demo-state-v2', legacyKey='based-ai-demo-routine-v1';
-let state=engine.initialState(), routine=[], filter='all', routineDay='All';
+let state=engine.initialState(), routine=[], filter='hair', routineDay='All';
 const messages=document.querySelector('#messages'),list=document.querySelector('#routine-list'),summary=document.querySelector('#profile-summary'),grid=document.querySelector('#products');
 let conversationHistory=[], conversationEpoch=0;
 let legacy=[];
@@ -93,7 +93,7 @@ function renderOwned(focusId){
 
  if(focusId){const focus=[...target.querySelectorAll('button')].find(b=>b.dataset.productId===focusId);if(focus&&!focus.disabled)focus.focus()}
 }
-function renderProducts(){grid.replaceChildren();const items=catalog.filter(p=>filter==='all'||p.category===filter);items.forEach(p=>{const card=node('article',undefined,'product');if(p.image){const img=node('img');img.className='product-image';img.src=p.image;img.alt=p.name;img.loading='lazy';card.append(img)}card.append(node('span',p.category.toUpperCase(),'product-num'),node('h3',p.name),node('p',p.description||'Explore this product.'));const label=node('label',undefined,'ownership'),check=node('input');check.type='checkbox';check.checked=(state.ownedIds||[]).includes(p.id);check.addEventListener('change',()=>{changeOwnership(p.id,check.checked);renderOwned()});label.append(check,document.createTextNode('I own this'));card.append(label);const link=node('a','Explore product ↗');link.href=p.source;link.target='_blank';link.rel='noopener noreferrer';card.append(link);grid.append(card)})}
+function renderProducts(){grid.replaceChildren();const groups={'hair-care':['shampoo','conditioner','hair-elixir','leave-in-conditioner'],styling:['texturizing-powder','sea-salt-spray','hair-clay','pomade','curl-mousse','curl-gel','curl-refresh-spray','curl-cream'],curly:['curl-mousse','curl-gel','curl-refresh-spray','curl-cream','leave-in-conditioner']};const items=catalog.filter(p=>filter==='all'||p.category===filter||(groups[filter]||[]).includes(p.id));items.forEach(p=>{const card=node('article',undefined,'product');if(p.image){const img=node('img');img.className='product-image';img.src=p.image;img.alt=p.name;img.loading='lazy';card.append(img)}card.append(node('span',p.category.toUpperCase(),'product-num'),node('h3',p.name),node('p',p.description||'Explore this product.'));const label=node('label',undefined,'ownership'),check=node('input');check.type='checkbox';check.checked=(state.ownedIds||[]).includes(p.id);check.addEventListener('change',()=>{changeOwnership(p.id,check.checked);renderOwned()});label.append(check,document.createTextNode('I own this'));card.append(label);const link=node('a','Explore product ↗');link.href=p.source;link.target='_blank';link.rel='noopener noreferrer';card.append(link);grid.append(card)})}
 function makeRoutine(confirmed=false){
  if(!confirmed){const result=engine.applyMessage(state,'build my routine',catalog);state=result.state;save();profile();renderRoutine();bubble(result.reply,'assistant');if(!/routine is ready/i.test(result.reply)){routineDrawer.open=false;showTab('chat');document.querySelector('#chat-input').focus();return;}}
  if(state.safetyHold){bubble('I can’t build a product routine while you’ve reported a possible reaction. Please consult a healthcare professional.','assistant');return}
