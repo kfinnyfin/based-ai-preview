@@ -168,7 +168,22 @@ function setExpanded(value){
 }
 function showTab(which){chatTab.setAttribute('aria-selected',String(which==='chat'));ownedTab.setAttribute('aria-selected',String(which==='owned'));chatView.hidden=which!=='chat';ownedView.hidden=which!=='owned';if(which==='owned')renderOwned();}
 function focusCoachInputOrTab(which){(which==='chat'?chatTab:ownedTab).focus({preventScroll:true});}
-function openCoach(which='chat'){widget.hidden=false;launcher.setAttribute('aria-expanded','true');showTab(which);focusCoachInputOrTab(which)}
-function closeCoach(){widget.hidden=true;setExpanded(false);launcher.setAttribute('aria-expanded','false');launcher.focus()}
+// On iOS the keyboard changes the visual viewport without resizing the layout viewport.
+// Keep the entire mobile coach in the visible rectangle and let only its transcript scroll.
+const mobileCoach=window.matchMedia('(max-width: 640px)');
+function syncCoachViewport(){
+ const viewport=window.visualViewport;
+ if(widget.hidden||!mobileCoach.matches||!viewport){widget.classList.remove('has-visual-viewport','keyboard-visible');return;}
+ widget.style.setProperty('--coach-top',`${viewport.offsetTop}px`);
+ widget.style.setProperty('--coach-left',`${viewport.offsetLeft}px`);
+ widget.style.setProperty('--coach-width',`${viewport.width}px`);
+ widget.style.setProperty('--coach-height',`${viewport.height}px`);
+ widget.classList.add('has-visual-viewport');
+ widget.classList.toggle('keyboard-visible',window.innerHeight-viewport.height>120);
+}
+if(window.visualViewport){window.visualViewport.addEventListener('resize',syncCoachViewport);window.visualViewport.addEventListener('scroll',syncCoachViewport);}
+window.addEventListener('resize',syncCoachViewport);
+function openCoach(which='chat'){widget.hidden=false;launcher.setAttribute('aria-expanded','true');showTab(which);syncCoachViewport();focusCoachInputOrTab(which)}
+function closeCoach(){widget.hidden=true;syncCoachViewport();setExpanded(false);launcher.setAttribute('aria-expanded','false');launcher.focus()}
 launcher.addEventListener('click',()=>widget.hidden?openCoach():closeCoach());closeChat.addEventListener('click',closeCoach);expandChat.addEventListener('click',()=>setExpanded(!expanded));chatTab.addEventListener('click',()=>showTab('chat'));ownedTab.addEventListener('click',()=>showTab('owned'));document.querySelector('#open-routine').addEventListener('click',()=>{showTab('chat');routineDrawer.open=!routineDrawer.open;if(routineDrawer.open)document.querySelector('#routine-drawer summary').focus()});routineDrawer.addEventListener('toggle',()=>document.querySelector('#open-routine').setAttribute('aria-expanded',String(routineDrawer.open)));document.querySelector('#choose-owned').addEventListener('click',()=>{showTab('owned');focusCoachInputOrTab('owned')});document.querySelector('#edit-hair-details').addEventListener('click',()=>{showTab('chat');startMatch(true)});document.querySelector('#owned-done').addEventListener('click',()=>{showTab('chat');if(state.lastQuestion==='owned'&&state.ownershipKnown&&state.ownedIds.length){makeRoutine();}else focusCoachInputOrTab('chat')});document.querySelector('#owned-search').addEventListener('input',()=>renderOwned());document.querySelectorAll('.owned-filter').forEach(b=>b.addEventListener('click',()=>{ownedFilter=b.dataset.ownedCategory;document.querySelectorAll('.owned-filter').forEach(x=>{x.classList.toggle('active',x===b);x.setAttribute('aria-pressed',String(x===b))});renderOwned()}));document.querySelectorAll('[data-open-chat]').forEach(b=>b.addEventListener('click',()=>openCoach()));document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!widget.hidden){if(routineDrawer.open){routineDrawer.open=false;document.querySelector('#open-routine').focus()}else if(expanded)setExpanded(false);else closeCoach()}});
 document.querySelectorAll('[data-nav-category]').forEach(a=>a.addEventListener('click',()=>{const b=document.querySelector('.filter[data-category="'+a.dataset.navCategory+'"]');if(b)b.click()}));
