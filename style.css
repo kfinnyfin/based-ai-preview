@@ -117,12 +117,11 @@ main>.hero-banner{max-width:none;margin:0;min-height:clamp(24rem,46vw,43rem);bor
 
 /* Keep the coach within the visible phone viewport when the keyboard opens. */
 @media(max-width:640px){
+ html.coach-open,html.coach-open body{overflow:hidden;overscroll-behavior:none}
  .coach-widget.has-visual-viewport,.coach-widget.is-expanded.has-visual-viewport{position:fixed;inset:auto;top:var(--coach-top);left:var(--coach-left);width:var(--coach-width);height:var(--coach-height);max-height:none;border:0;border-radius:0;transform:none}
  .coach-widget .widget-header,.coach-widget .coach-nav{flex:none}
  .coach-widget #chat-view{overflow:hidden}
  .coach-widget #chat-view .chat-panel{min-height:0;height:100%}
  .coach-widget #chat-view .messages{min-height:0;overscroll-behavior:contain}
- .coach-widget.keyboard-visible .chat-bottom .edit-hair-details,.coach-widget.keyboard-visible .chat-bottom>.footnote{display:none}
- .coach-widget.keyboard-visible .widget-view .panel.chat-panel{padding-bottom:.5rem}
 }
 .edit-hair-details{display:block;margin:0 0 .35rem auto;padding:.25rem .45rem;border:0;background:transparent;color:#c7b979;font-size:.67rem}.edit-hair-details:hover{text-decoration:underline}.quick-replies button:focus-visible{outline:2px solid #e8d482;outline-offset:2px}
