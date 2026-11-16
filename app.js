@@ -170,16 +170,17 @@ function showTab(which){chatTab.setAttribute('aria-selected',String(which==='cha
 function focusCoachInputOrTab(which){(which==='chat'?chatTab:ownedTab).focus({preventScroll:true});}
 // On iOS the keyboard changes the visual viewport without resizing the layout viewport.
 // Keep the entire mobile coach in the visible rectangle and let only its transcript scroll.
-const mobileCoach=window.matchMedia('(max-width: 640px)');
+const mobileCoach=window.matchMedia('(max-width: 640px), (max-width: 1000px) and (max-height: 500px)');
 let viewportFrame=0;
 function syncCoachViewport(){
  const viewport=window.visualViewport;
- if(widget.hidden||!mobileCoach.matches||!viewport){widget.classList.remove('has-visual-viewport','keyboard-visible');return;}
+ if(widget.hidden||!mobileCoach.matches||!viewport){widget.classList.remove('has-visual-viewport','short-viewport');return;}
  widget.style.setProperty('--coach-top',`${viewport.offsetTop}px`);
  widget.style.setProperty('--coach-left',`${viewport.offsetLeft}px`);
  widget.style.setProperty('--coach-width',`${viewport.width}px`);
  widget.style.setProperty('--coach-height',`${viewport.height}px`);
  widget.classList.add('has-visual-viewport');
+ widget.classList.toggle('short-viewport',viewport.height<440);
 }
 // Coalesce viewport events to one layout update per frame. The OS drives timing,
 // so rapid keyboard reversals do not leave a separate CSS transition lagging behind.
