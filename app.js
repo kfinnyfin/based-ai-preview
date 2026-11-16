@@ -23,7 +23,13 @@ function bubble(text,who,record=true){
   const lines=text.split('\n'),sources=lines.filter(line=>/^\s*Sources?:\s*/i.test(line)),body=lines.filter(line=>!/^\s*Sources?:\s*/i.test(line)).join('\n').trim();
   appendSafeLinks(n,body);if(sources.length){const details=node('details',undefined,'source-details');details.append(node('summary','View sources'));const content=node('div',undefined,'source-links');appendSafeLinks(content,sources.map(line=>line.replace(/^\s*Sources?:\s*/i,'')).join(' · '));details.append(content);n.append(details);}
  }else n.textContent=text;
- if(who==='user'){const welcome=document.querySelector('#coach-welcome');if(welcome)welcome.remove();document.querySelector('.chat-panel').classList.add('conversation-started');}messages.append(n);if(who==='assistant'&&record&&!/routine is ready/i.test(text))appendProductCards(text);if(record&&(who==='user'||who==='assistant')){conversationHistory.push({role:who,content:text});conversationHistory=conversationHistory.slice(-8)}messages.scrollTop=messages.scrollHeight;requestAnimationFrame(()=>{messages.scrollTop=messages.scrollHeight});return n
+ if(who==='user'){const welcome=document.querySelector('#coach-welcome');if(welcome)welcome.remove();document.querySelector('.chat-panel').classList.add('conversation-started');}messages.append(n);if(who==='assistant'&&record&&!/routine is ready/i.test(text))appendProductCards(text);if(record&&(who==='user'||who==='assistant')){conversationHistory.push({role:who,content:text});conversationHistory=conversationHistory.slice(-8)}
+ requestAnimationFrame(()=>{
+  if(who==='assistant'&&record&&messages.clientHeight<300&&!messages.lastElementChild?.classList.contains('quick-replies')){
+   // Start at the answer, rather than scrolling past it to the product cards.
+   messages.scrollTop+=n.getBoundingClientRect().top-messages.getBoundingClientRect().top-8;
+  }else messages.scrollTop=messages.scrollHeight;
+ });return n
 }
 function appendProductCards(text){
  const occupied=[],matches=[];for(const p of [...catalog].sort((a,b)=>b.name.length-a.name.length)){const name=p.name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');const m=new RegExp('(^|[^a-z])('+name+')(?=$|[^a-z])','i').exec(text);if(!m)continue;const start=m.index+m[1].length,end=start+m[2].length;if(occupied.some(([a,b])=>start<b&&end>a))continue;occupied.push([start,end]);matches.push(p);if(matches.length===3)break;}
